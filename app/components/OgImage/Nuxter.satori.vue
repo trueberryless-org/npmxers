@@ -96,8 +96,9 @@ const { format } = Intl.NumberFormat('en-GB', {})
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
+        width="238"
         viewBox="0 0 602 170"
-        style="--accent: oklch(0.78 0.148 286.067)"
+        style="--accent: #b0a9ff"
       >
         <title>npmx logo</title>
         <g transform="translate(0 14.602)">
@@ -123,7 +124,7 @@ const { format } = Intl.NumberFormat('en-GB', {})
           />
           <path
             d="m103.12-9.2307-3.6211 10.246-46.309 131-3.6211 10.246h15.537l3.6211-10.246 11.717-33.148 38.211-108.1z"
-            fill="oklch(0.78 0.148 286.067)"
+            fill="#b0a9ff"
           />
         </g>
       </svg>
