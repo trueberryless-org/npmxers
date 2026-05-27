@@ -97,7 +97,7 @@ const { format } = Intl.NumberFormat('en-GB', {})
       <svg
         xmlns="http://www.w3.org/2000/svg"
         class="mt-8"
-        width="238"
+        width="158"
         viewBox="0 0 602 170"
         style="--accent: #b0a9ff"
       >
