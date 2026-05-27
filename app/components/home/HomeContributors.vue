@@ -56,7 +56,7 @@ const contributors = computed(() => {
             :text="contributor.username"
           >
             <NuxtImg
-              :src="contributor.username"
+              :src="`https://github.com/${contributor.username}.png`"
               densities="x1 x2"
               height="80px"
               width="80px"

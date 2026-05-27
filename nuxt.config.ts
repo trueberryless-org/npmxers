@@ -22,6 +22,10 @@ export default defineNuxtConfig({
 
   css: ['~/assets/css/main.css'],
 
+  site: {
+    url: 'https://npmxers.trueberryless.org',
+  },
+
   experimental: {
     viewTransition: true,
   },
@@ -63,11 +67,5 @@ export default defineNuxtConfig({
 
   image: {
     provider: 'netlify',
-  },
-
-  ogImage: {
-    runtimeCacheStorage: {
-      driver: 'netlify-blobs',
-    },
   },
 })

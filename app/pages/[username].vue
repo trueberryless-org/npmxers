@@ -72,7 +72,7 @@ function backToHome() {
         <div class="bg-[url('/card-gradient-bg.svg')] bg-no-repeat bg-size-[300%] flex flex-col md:flex-row lg:flex-col items-center justify-between h-full z-40 bg-neutral-950! rounded-[9.5px] relative p-[18px] sm:p-11 hover:border-primary">
           <div class="flex flex-col md:flex-row lg:flex-col gap-y-2 pb-2 md:w-full items-center text-center justify-between">
             <NuxtImg
-              :src="contributor.username"
+              :src="`https://github.com/${contributor.username}.png`"
               :alt="contributor.username"
               class="rounded-full w-40"
               :style="{ 'view-transition-name': `npmxer-${contributor.username}` }"
