@@ -79,6 +79,7 @@ export default defineNuxtConfig({
   ogImage: {
     runtimeCacheStorage: {
       driver: 'netlify-blobs',
+      name: 'npmxers-og-image-cache',
     },
   },
 })
