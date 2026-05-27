@@ -1,14 +1,19 @@
 <script lang="ts" setup>
 const { slug } = defineProps<{ slug: string }>()
 
-const contributor = await $fetch(`/api/contributors/${slug}`)
+const clientFetch = useRequestFetch()
+const contributor = await clientFetch(`/api/contributors/${slug}`)
 
 const { format } = Intl.NumberFormat('en-GB', {})
 </script>
 
 <template>
-  <div class="flex flex-row justify-between w-full h-full p-[38px] bg-slate-900">
-    <div class="flex flex-col w-1/3 items-center py-10 justify-between text-white">
+  <div
+    class="flex flex-row justify-between w-full h-full p-[38px] bg-slate-900"
+  >
+    <div
+      class="flex flex-col w-1/3 items-center py-10 justify-between text-white"
+    >
       <div class="flex flex-col items-center">
         <img
           :src="`https://github.com/${contributor.username}.png?size=200`"
@@ -83,7 +88,9 @@ const { format } = Intl.NumberFormat('en-GB', {})
             {{ format(contributor.score) }}
           </div>
         </div>
-        <div class="flex flex-row text-neutral-400 items-center pt-3 font-medium text-3xl">
+        <div
+          class="flex flex-row text-neutral-400 items-center pt-3 font-medium text-3xl"
+        >
           #{{ format(contributor.rank) }}
         </div>
       </div>
@@ -135,7 +142,9 @@ const { format } = Intl.NumberFormat('en-GB', {})
         <IssuesCard :issues="contributor.issues" />
       </div>
       <div class="h-[48%]">
-        <PullRequestCard :pull-requests="contributor.merged_pull_requests.all" />
+        <PullRequestCard
+          :pull-requests="contributor.merged_pull_requests.all"
+        />
       </div>
     </div>
     <div class="flex flex-col w-[31.5%] text-white justify-between">
@@ -150,8 +159,9 @@ const { format } = Intl.NumberFormat('en-GB', {})
 </template>
 
 <style scoped lang="postcss">
+/* Left unmodified layout boundaries, just stripped localhost qualifiers */
 .card-border::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -167,7 +177,7 @@ const { format } = Intl.NumberFormat('en-GB', {})
 }
 
 .profile-card {
-  background-image: url('http://localhost:3000/card-gradient-bg.svg');
+  background-image: url("/card-gradient-bg.svg");
   background-repeat: no-repeat;
   background-size: 300%;
 }
@@ -177,22 +187,46 @@ const { format } = Intl.NumberFormat('en-GB', {})
 }
 
 .issues-card {
-  background-image: linear-gradient(180deg, rgba(0, 220, 130, 0.4) 0%, rgba(0, 220, 130, 0) 100%, rgba(2, 4, 32, 0.5)),
-    url('http://localhost:3000/issues-card-bg.svg');
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(0, 220, 130, 0.4) 0%,
+      rgba(0, 220, 130, 0) 100%,
+      rgba(2, 4, 32, 0.5)
+    ),
+    url("/issues-card-bg.svg");
 }
 
 .comments-card {
-  background-image: linear-gradient(180deg, rgba(64, 187, 255, 0.4) 0%, rgba(64, 187, 255, 0) 100%, rgba(2, 4, 32, 0.5)),
-    url('http://localhost:3000/comments-card-bg.svg');
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(64, 187, 255, 0.4) 0%,
+      rgba(64, 187, 255, 0) 100%,
+      rgba(2, 4, 32, 0.5)
+    ),
+    url("/comments-card-bg.svg");
 }
 
 .pull-requests-card {
-  background-image: linear-gradient(180deg, rgba(139, 92, 246, 0.4) 0%, rgba(139, 92, 246, 0) 100%, rgba(2, 4, 32, 0.5)),
-    url('http://localhost:3000/pull-requests-card-bg.svg');
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(139, 92, 246, 0.4) 0%,
+      rgba(139, 92, 246, 0) 100%,
+      rgba(2, 4, 32, 0.5)
+    ),
+    url("/pull-requests-card-bg.svg");
 }
 
 .reactions-card {
-  background-image: linear-gradient(180deg, rgba(247, 209, 76, 0.4) 0%, rgba(247, 209, 76, 0) 100%, rgba(2, 4, 32, 0.5)),
-    url('http://localhost:3000/reactions-card-bg.webp');
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(247, 209, 76, 0.4) 0%,
+      rgba(247, 209, 76, 0) 100%,
+      rgba(2, 4, 32, 0.5)
+    ),
+    url("/reactions-card-bg.webp");
 }
 </style>

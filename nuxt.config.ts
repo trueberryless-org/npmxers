@@ -67,5 +67,12 @@ export default defineNuxtConfig({
 
   image: {
     provider: 'netlify',
+    domains: ['github.com'],
+  },
+
+  netlify: {
+    images: {
+      remoteURLPatterns: ['https://github.com/.*'],
+    },
   },
 })
