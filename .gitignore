@@ -11,3 +11,6 @@ dist
 .vscode
 .pnpm-store
 test-results
+
+# Local Netlify folder
+.netlify
