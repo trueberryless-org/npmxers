@@ -22,9 +22,7 @@ const unlockList = [
           <ULink
             to="https://github.com/npmx-dev"
             target="_blank"
-          >
-            npmx-dev
-          </ULink>
+          >npmx-dev</ULink>
           repositories, browse the community, and share any npmxer profile.
         </p>
         <div>
