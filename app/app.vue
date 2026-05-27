@@ -13,6 +13,7 @@ useHead({
 
 useSeoMeta({
   ogSiteName: 'npmxers',
+  ogImage: '/social_image.jpg',
   twitterCard: 'summary_large_image',
 })
 </script>
