@@ -14,9 +14,9 @@ useSeoMeta({
     'Discover your contributions across the npmx-dev GitHub organization.',
   ogDescription:
     'Discover your contributions across the npmx-dev GitHub organization.',
-  ogImage: 'https://npmx.dev/social-card.jpg',
+  ogImage: 'https://npmxers.trueberryless.org/social-card.jpg',
   ogImageAlt: 'npmxers',
-  twitterImage: 'https://npmx.dev/social-card.jpg',
+  twitterImage: 'https://npmxers.trueberryless.org/social-card.jpg',
   ogUrl: 'https://npmx.dev',
 })
 </script>
