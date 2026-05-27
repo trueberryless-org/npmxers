@@ -11,7 +11,7 @@ const unlockList = [
     class="text-white w-full min-h-[calc(100dvh-80px)] flex flex-col justify-center py-8 md:py-0"
   >
     <h1 class="text-4xl lg:text-6xl font-bold mb-6 text-center md:text-left">
-      Are you a <span class="text-indigo-400">npmxer</span>?
+      Are you an <span class="text-indigo-400">npmxer</span>?
     </h1>
     <div
       class="flex flex-col gap-y-10 md:flex-row md:justify-between items-center md:items-start gap-x-12 lg:gap-x-30"
@@ -29,7 +29,7 @@ const unlockList = [
         </p>
         <div>
           <div class="mb-2">
-            Become a
+            Become an
             <UBadge
               size="xl"
               color="primary"
