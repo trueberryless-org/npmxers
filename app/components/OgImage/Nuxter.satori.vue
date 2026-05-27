@@ -100,7 +100,6 @@ const { format } = Intl.NumberFormat('en-GB', {})
         viewBox="0 0 602 170"
         style="--accent: #b0a9ff"
       >
-        <title>npmx logo</title>
         <g transform="translate(0 14.602)">
           <path
             d="m0.93476 97.205h24.081v23.693h-24.081z"
