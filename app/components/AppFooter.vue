@@ -1,18 +1,18 @@
 <script setup lang="ts">
 const socialLinks = [
   {
-    to: 'https://twitter.com/nuxt_js',
-    alt: 'Nuxt Twitter Account',
-    icon: 'i-simple-icons-twitter',
+    to: 'https://bsky.app/profile/npmx.dev',
+    alt: 'npmx Bluesky Account',
+    icon: 'i-simple-icons-bluesky',
   },
   {
-    to: 'https://github.com/nuxt/nuxt',
-    alt: 'Nuxt GitHub Repository',
+    to: 'https://github.com/npmx-dev/npmx.dev',
+    alt: 'npmx.dev GitHub Repository',
     icon: 'i-simple-icons-github',
   },
   {
-    to: 'https://discord.com/invite/nuxt',
-    alt: 'Nuxt Discord Channel',
+    to: 'https://build.npmx.dev',
+    alt: 'npmx Discord Channel',
     icon: 'i-simple-icons-discord',
   },
 ] as Array<{ to: string, alt: string, icon: string }>
@@ -22,8 +22,8 @@ const socialLinks = [
   <div class="border-t border-neutral-800">
     <UContainer class="flex justify-between gap-x-4 items-center h-20 sm:h-16">
       <span class="text-neutral-300 text-sm">
-        Made with love by the Nuxt Community 💚 (<NuxtLink
-          to="https://github.com/nuxt/nuxters"
+        Made with love by the npmx community 💜 (<NuxtLink
+          to="https://github.com/trueberryless-org/npmxers"
           target="_blank"
           class="underline hover:text-white"
         >source code</NuxtLink>).

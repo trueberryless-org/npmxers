@@ -1,5 +1,3 @@
-export type Provider = 'github' | 'discord'
-
 export interface MergedPullRequests {
   docs: number
   chore: number
@@ -19,12 +17,6 @@ export interface Contributor {
   reactions: number
   score: number
   rank: number
-}
-
-export interface ModuleMaintainer {
-  name: string
-  github: string
-  modules: string[]
 }
 
 export interface Score {

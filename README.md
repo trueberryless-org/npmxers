@@ -1,10 +1,10 @@
-[![Nuxters](./public/social-card.jpg)](https://nuxters.nuxt.com)
+[![npmxers](./public/social-card.jpg)](https://npmxers.trueberryless.org)
 
-# Nuxters
+# npmxers
 
-Discover the number of contributions you made to Nuxt and get the Nuxter badge on [Nuxt Discord server](https://chat.nuxt.dev).
+Discover the number of contributions you made to npmx and share your npmxer profile.
 
-https://nuxters.nuxt.com
+https://npmx.dev
 
 ## Setup
 
@@ -27,9 +27,13 @@ pnpm dev
 ## Contributor stats
 
  - Run `pnpm collect:contributors` locally with `NUXT_GITHUB_TOKEN` set to a GitHub personal access token that can read public repos.
- - The script aggregates contributions across Nuxt organizations and writes the results to `public/contributors.json`.
+ - The script aggregates contributions across the npmx-dev GitHub organization and writes the results to `public/contributors.json`.
 - `.github/workflows/update-contributors.yml` refreshes the data nightly and on demand, committing changes automatically.
 
-### License
+## Credits & Attribution
+
+This project is a fork and adapted version of [Nuxters](https://github.com/nuxt/nuxters), built by the Nuxt team. Huge thanks to the original creators for open-sourcing their codebase!
+
+## License
 
 [MIT License](./LICENSE)

@@ -19,9 +19,12 @@ const contributors = computed(() => {
 </script>
 
 <template>
-  <div class="text-white">
+  <div
+    id="contributors"
+    class="text-white scroll-mt-20"
+  >
     <h2 class="text-3xl lg:text-4xl font-bold mb-12">
-      They are already <span class="text-green-400">Nuxters</span>
+      They are already <span class="text-indigo-400">npmxers</span>
     </h2>
 
     <div class="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-10 gap-4 sm:gap-5 lg:gap-8">
@@ -60,7 +63,7 @@ const contributors = computed(() => {
               :alt="contributor.username"
               loading="lazy"
               class="rounded-xl w-full h-full transition lg:hover:scale-110"
-              :style="{ 'view-transition-name': `nuxter-${contributor.username}` }"
+              :style="{ 'view-transition-name': `npmxer-${contributor.username}` }"
             />
           </UTooltip>
           <span class="inline-block rounded-t px-1 bg-neutral-950 absolute -bottom-2 right-0 font-medium text-sm"><span class="font-light text-xs text-neutral-400">#</span>{{ index + 1 }}</span>

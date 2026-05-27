@@ -7,17 +7,12 @@ import { retry } from '@octokit/plugin-retry'
 
 const REQUIRED_TOKEN_MESSAGE = 'NUXT_GITHUB_TOKEN is required to collect contributor statistics'
 const ORGS = [
-  'nuxt',
-  'nuxt-community',
-  'nuxt-content',
-  'nuxt-hub',
-  'nuxt-modules',
-  'nuxt-ui-templates',
+  'npmx-dev',
 ] as const
 const HELPFUL_REACTIONS_THRESHOLD = 3
 const HELPFUL_COMMENTS_THRESHOLD = 5
 const OUTPUT_FILE = resolve(fileURLToPath(new URL('../public/contributors.json', import.meta.url)))
-const USER_AGENT = 'nuxters-contributor-collector'
+const USER_AGENT = 'npmxers-contributor-collector'
 
 type PullRequestType = 'docs' | 'chore' | 'feat' | 'fix'
 

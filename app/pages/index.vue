@@ -4,23 +4,25 @@ definePageMeta({
 })
 
 useHead({
-  link: [{ rel: 'canonical', href: 'https://nuxters.nuxt.com' }],
+  link: [{ rel: 'canonical', href: 'https://npmx.dev' }],
 })
 
 useSeoMeta({
-  title: 'Are you a Nuxter?',
-  ogTitle: 'Are you a Nuxter?',
-  description: 'Discover your contributions to unlock the nuxter role on Nuxt Discord server.',
-  ogDescription: 'Discover your contributions to unlock the nuxter role on Nuxt Discord server.',
-  ogImage: 'https://nuxters.nuxt.com/social-card.jpg',
-  ogImageAlt: 'Nuxters',
-  twitterImage: 'https://nuxters.nuxt.com/social-card.jpg',
-  ogUrl: 'https://nuxters.nuxt.com',
+  title: 'Are you an npmxer?',
+  ogTitle: 'Are you an npmxer?',
+  description:
+    'Discover your contributions across the npmx-dev GitHub organization.',
+  ogDescription:
+    'Discover your contributions across the npmx-dev GitHub organization.',
+  ogImage: 'https://npmx.dev/social-card.jpg',
+  ogImageAlt: 'npmxers',
+  twitterImage: 'https://npmx.dev/social-card.jpg',
+  ogUrl: 'https://npmx.dev',
 })
 </script>
 
 <template>
-  <div class="text-green-400 flex flex-col gap-y-[72px] py-10 lg:py-40">
+  <div class="text-indigo-400 flex flex-col gap-y-24 pt-4 pb-20">
     <HomeHero />
     <HomeContributors />
     <HomeJoin />

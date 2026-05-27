@@ -8,8 +8,7 @@ export default defineNuxtConfig({
     'nuxt-og-image',
     '@nuxt/image',
     '@nuxt/test-utils/module',
-    '@vercel/analytics',
-    '@vercel/speed-insights',
+    '@netlify/nuxt',
   ],
 
   devtools: { enabled: true },
@@ -22,24 +21,6 @@ export default defineNuxtConfig({
   },
 
   css: ['~/assets/css/main.css'],
-
-  runtimeConfig: {
-    sessionPassword: '',
-    github: {
-      accessToken: '',
-      clientId: '',
-      clientSecret: '',
-    },
-    discord: {
-      clientId: '',
-      clientSecret: '',
-      guildId: '',
-      nuxterRoleId: '',
-      moduleMaintainerRoleId: '',
-      uIProRoleId: '',
-      botToken: '',
-    },
-  },
 
   experimental: {
     viewTransition: true,
@@ -61,9 +42,7 @@ export default defineNuxtConfig({
 
   vite: {
     optimizeDeps: {
-      include: [
-        'vue-confetti-explosion',
-      ],
+      include: ['vue-confetti-explosion'],
     },
   },
 
@@ -83,12 +62,12 @@ export default defineNuxtConfig({
   },
 
   image: {
-    provider: 'github',
+    provider: 'netlify',
   },
 
   ogImage: {
     runtimeCacheStorage: {
-      driver: 'vercel-runtime-cache',
+      driver: 'netlify-blobs',
     },
   },
 })

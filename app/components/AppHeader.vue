@@ -3,22 +3,24 @@ import type { DropdownMenuItem } from '@nuxt/ui'
 
 const links: DropdownMenuItem[] = [
   {
-    label: 'Nuxt.com',
-    description: 'Framework documentation',
-    to: 'https://nuxt.com/?utm_source=nuxters&utm_medium=dropdown&utm_campaign=home',
-    icon: 'i-simple-icons-nuxtdotjs',
+    label: 'npmx.dev',
+    description: 'Project website',
+    to: 'https://npmx.dev',
+    icon: 'i-simple-icons-github',
   },
   {
-    label: 'Nuxt.new',
-    description: 'Nuxt templates',
-    to: 'https://nuxt.new/?utm_source=nuxters&utm_medium=dropdown&utm_campaign=home',
-    icon: 'i-simple-icons-nuxtdotjs',
+    label: 'npmx.dev repo',
+    description: 'Main repository',
+    to: 'https://github.com/npmx-dev/npmx.dev',
+    icon: 'i-simple-icons-github',
   },
 ]
 </script>
 
 <template>
-  <div class="h-20 w-full sticky top-0 bg-neutral-950/70 backdrop-blur-md z-50 flex flex-col justify-center">
+  <div
+    class="h-20 w-full sticky top-0 bg-neutral-950/70 backdrop-blur-md z-50 flex flex-col justify-center"
+  >
     <UContainer class="flex justify-between items-center w-full">
       <div class="flex items-center">
         <NuxtLink
@@ -45,7 +47,7 @@ const links: DropdownMenuItem[] = [
       <div class="flex items-center sm:gap-x-4 text-white font-medium">
         <UButton
           class="flex items-center sm:-mr-2"
-          to="https://go.nuxt.com/discord"
+          to="https://build.npmx.dev"
           target="_blank"
           variant="link"
           color="neutral"
@@ -60,7 +62,7 @@ const links: DropdownMenuItem[] = [
         </UButton>
         <div class="hidden sm:block h-8 w-px bg-neutral-700 -mr-2 sm:-mr-6" />
         <UButton
-          to="http://go.nuxt.com/github"
+          to="https://github.com/npmx-dev/npmx.dev"
           class="flex gap-x-2 items-center"
           variant="link"
           color="neutral"

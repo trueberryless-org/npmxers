@@ -1,10 +1,10 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 @import "@nuxt/ui";
 
 @theme {
   --font-sans:
-    'DM Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    "DM Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
   --color-slate-50: #f8fafc;
   --color-slate-100: #f1f5f9;
@@ -18,16 +18,20 @@
   --color-slate-900: #0f172a;
   --color-slate-950: #020420;
 
-  --color-green-50: #d6ffee;
-  --color-green-100: #acffdd;
-  --color-green-200: #83ffcc;
-  --color-green-300: #30ffaa;
-  --color-green-400: #00dc82;
-  --color-green-500: #00bd6f;
-  --color-green-600: #009d5d;
-  --color-green-700: #007e4a;
-  --color-green-800: #005e38;
-  --color-green-900: #003f25;
+  --color-indigo-50: #f8f5ff;
+  --color-indigo-100: #eadeff;
+  --color-indigo-200: #d0beff;
+  --color-indigo-300: #b59fff;
+  --color-indigo-400: #9c80ff;
+  --color-indigo-500: #8d72f1;
+  --color-indigo-600: #745ad5;
+  --color-indigo-700: #5c43ba;
+  --color-indigo-800: #422c9f;
+  --color-indigo-900: #291583;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 /*

@@ -1,38 +1,43 @@
 <script setup lang="ts">
-const unlockList = ['1 pull request merged', '1 helpful issue (completed, 3+ reactions or 5+ comments)', '1 helpful comment (3+ reactions)']
+const unlockList = [
+  '1 pull request merged',
+  '1 helpful issue (completed, 3+ reactions or 5+ comments)',
+  '1 helpful comment (3+ reactions)',
+]
 </script>
 
 <template>
-  <div class="text-white">
-    <h1 class="text-4xl lg:text-6xl font-bold mb-4">
-      Are you a <span class="text-green-400">Nuxter</span>?
+  <div
+    class="text-white w-full min-h-[calc(100dvh-80px)] flex flex-col justify-center py-8 md:py-0"
+  >
+    <h1 class="text-4xl lg:text-6xl font-bold mb-6 text-center md:text-left">
+      Are you a <span class="text-indigo-400">npmxer</span>?
     </h1>
-    <div class="flex flex-col gap-y-10 md:justify-between md:flex-row items-start gap-x-23">
-      <div class="flex flex-col gap-y-4 text-neutral-300">
+    <div
+      class="flex flex-col gap-y-10 md:flex-row md:justify-between items-center md:items-start gap-x-12 lg:gap-x-30"
+    >
+      <div class="flex flex-col gap-y-4 text-neutral-300 w-full md:w-1/2">
         <p class="text-base lg:text-lg lg:leading-8">
-          Discover your contributions on
+          Discover contributions across the
           <ULink
-            to="https://github.com/nuxt"
+            to="https://github.com/npmx-dev"
             target="_blank"
-          >nuxt</ULink>
-          and
-          <ULink
-            to="https://github.com/nuxt-modules"
-            target="_blank"
-          >nuxt modules</ULink> organisations, unlock roles on <ULink
-            to="https://discord.com/invite/nuxt"
-            target="_blank"
-          >Nuxt Discord server</ULink> and share your Nuxter profile.
+          >
+            npmx-dev
+          </ULink>
+          repositories, browse the community, and share any npmxer profile.
         </p>
         <div>
           <div class="mb-2">
-            Unlock the <UBadge
+            Become a
+            <UBadge
               size="xl"
               color="primary"
               variant="subtle"
             >
-              nuxter
-            </UBadge> role by having either:
+              npmxer
+            </UBadge>
+            by having either:
           </div>
           <ul class="flex flex-col gap-y-1 pt-1 text-base">
             <li
@@ -42,20 +47,20 @@ const unlockList = ['1 pull request merged', '1 helpful issue (completed, 3+ rea
             >
               <UIcon
                 name="i-heroicons-check-circle-20-solid"
-                class="h-5 w-5 text-green-400"
+                class="h-5 w-5 text-indigo-400"
               />
               <span>
                 {{ item }}
               </span>
             </li>
           </ul>
-          <div class="w-20 h-px bg-neutral-700 mt-8 mb-4" />
-          <span class="italic text-neutral-400 text-base">
-            Note that your details are stored in a secured cookie and only used to grant you roles on Discord.
-          </span>
         </div>
       </div>
-      <HomeCard />
+      <div
+        class="w-full sm:max-w-md md:w-auto flex-1 flex justify-center md:justify-end"
+      >
+        <HomeCard class="w-full" />
+      </div>
     </div>
   </div>
 </template>

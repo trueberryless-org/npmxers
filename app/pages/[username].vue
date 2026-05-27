@@ -20,7 +20,8 @@ if (!contributor.value) {
   })
 }
 
-const contributorUrl = `nuxters.nuxt.com/${contributor.value?.username}`
+const contributorUrl = new URL(`/${contributor.value?.username}`, origin).toString()
+const contributorUrlDisplay = contributorUrl.replace(/^https?:\/\//, '')
 const format = useNumberFormatter()
 
 defineOgImage('Nuxter', {
@@ -29,15 +30,15 @@ defineOgImage('Nuxter', {
 const ogImageUrl = joinURL(origin, `/_og/r/${contributor.value?.username}.png`)
 
 useHead({
-  link: [{ rel: 'canonical', href: `https://${contributorUrl}` }],
+  link: [{ rel: 'canonical', href: contributorUrl }],
 })
 
 useSeoMeta({
-  title: () => `${contributor.value?.username} is a Nuxter`,
-  ogTitle: () => `${contributor.value?.username} is a Nuxter`,
-  description: () => `Discover ${contributor.value?.username}'s contributions to the Nuxt ecosystem.`,
-  ogDescription: () => `Discover ${contributor.value?.username}'s contributions to the Nuxt ecosystem.`,
-  ogUrl: () => `https://${contributorUrl}`,
+  title: () => `${contributor.value?.username} is an npmxer`,
+  ogTitle: () => `${contributor.value?.username} is an npmxer`,
+  description: () => `Discover ${contributor.value?.username}'s contributions to the npmx ecosystem.`,
+  ogDescription: () => `Discover ${contributor.value?.username}'s contributions to the npmx ecosystem.`,
+  ogUrl: () => contributorUrl,
 })
 
 function backToHome() {
@@ -67,14 +68,14 @@ function backToHome() {
       />
     </div>
     <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-10.5">
-      <div class="relative z-40 md:col-span-2 h-full md:h-100 lg:h-full lg:col-span-1 lg:row-span-2 bg-neutral-800 p-px rounded-xl before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-[10px] before:bg-[linear-gradient(to_bottom_right,#00dc82,#1e293b)] before:-z-10 hover:before:bg-[linear-gradient(to_bottom_right,#00dc82,#00dc82)]">
+      <div class="relative z-40 md:col-span-2 h-full md:h-100 lg:h-full lg:col-span-1 lg:row-span-2 bg-neutral-800 p-px rounded-xl before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-[10px] before:bg-[linear-gradient(to_bottom_right,#8d72f1,#1e293b)] before:-z-10 hover:before:bg-[linear-gradient(to_bottom_right,#8d72f1,#8d72f1)]">
         <div class="bg-[url('/card-gradient-bg.svg')] bg-no-repeat bg-size-[300%] flex flex-col md:flex-row lg:flex-col items-center justify-between h-full z-40 bg-neutral-950! rounded-[9.5px] relative p-[18px] sm:p-11 hover:border-primary">
           <div class="flex flex-col md:flex-row lg:flex-col gap-y-2 pb-2 md:w-full items-center text-center justify-between">
             <NuxtImg
               :src="contributor.username"
               :alt="contributor.username"
               class="rounded-full w-40"
-              :style="{ 'view-transition-name': `nuxter-${contributor.username}` }"
+              :style="{ 'view-transition-name': `npmxer-${contributor.username}` }"
             />
             <div class="flex flex-col items-center gap-4">
               <div class="flex flex-col items-center gap-y-4.5">
@@ -124,14 +125,14 @@ function backToHome() {
               <span class="block mb-10 md:mb-0 h-px w-[92px] bg-neutral-800" />
 
               <div class="flex flex-col items-center justify-center text-center gap-y-3">
-                <span class="text-lg">Share your Nuxter profile ✨</span>
+                <span class="text-lg">Share your npmxer profile ✨</span>
 
                 <UButton
                   :color="pageCopied ? 'primary' : 'neutral'"
                   :variant="pageCopied ? 'subtle' : 'outline'"
                   size="xl"
                   class="max-w-[250px] m:max-w-[270px] xl:max-w-[300px]"
-                  :label="contributorUrl"
+                  :label="contributorUrlDisplay"
                   trailing
                   :icon="pageCopied ? 'i-ph-check' : 'i-ph-copy'"
                   @click="copyPage(contributorUrl)"
@@ -140,14 +141,14 @@ function backToHome() {
 
                 <UModal
                   :ui="{ content: 'sm:max-w-2xl' }"
-                  title="Add your Nuxter card on Github"
+                  title="Add your npmxer card on GitHub"
                 >
                   <UButton
                     color="neutral"
                     variant="outline"
                     size="xl"
                     class="max-w-[250px] m:max-w-[270px] xl:max-w-[300px]"
-                    label="Add your Nuxter card on Github"
+                    label="Add your npmxer card on GitHub"
                     icon="i-simple-icons-github"
                     trailing
                   />
@@ -167,29 +168,23 @@ function backToHome() {
                         >
                       </div>
                       <UButton
-                        label="Get your Nuxter card"
+                        label="Get your npmxer card"
                         :color="cardCopied ? 'primary' : 'neutral'"
                         :variant="cardCopied ? 'subtle' : 'outline'"
                         size="xl"
                         class="self-center"
                         trailing
                         :icon="cardCopied ? 'i-ph-check' : 'i-ph-copy'"
-                        @click="copyCard(`[![${contributor?.username} Nuxter profile](${ogImageUrl})](https://${contributorUrl})`)"
+                        @click="copyCard(`[![${contributor?.username} npmxer profile](${ogImageUrl})](${contributorUrl})`)"
                       />
                       <p class="text-center">
-                        Copy your Nuxter card and paste it on your <ULink
+                        Copy your npmxer card and paste it on your <ULink
                           to="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme"
                           target="_blank"
                         >profile README</ULink>.
                       </p>
                       <p class="text-neutral-400 text-center">
-                        Example : <ULink
-                          to="https://github.com/Atinux"
-                          target="_blank"
-                        >Atinux profile</ULink> with <ULink
-                          to="https://raw.githubusercontent.com/Atinux/Atinux/main/README.md"
-                          target="_blank"
-                        >this template</ULink>
+                        Paste it into your GitHub profile README to showcase your contributions.
                       </p>
                     </div>
                   </template>
@@ -199,7 +194,7 @@ function backToHome() {
           </div>
         </div>
       </div>
-      <div class="border-primary-400 rounded-xl border h-[285px] bg-no-repeat bg-top p-6 text-center flex flex-col items-center justify-end bg-[linear-gradient(180deg,_rgba(0,_220,_130,_0.40)_0%,_rgba(0,_220,_130,_0.00)_100%,_rgba(2,_4,_32,_0.50)),url('/issues-card-bg.svg')]">
+      <div class="border-green-400 rounded-xl border h-[285px] bg-no-repeat bg-top p-6 text-center flex flex-col items-center justify-end bg-[linear-gradient(180deg,_rgba(0,_220,_130,_0.40)_0%,_rgba(0,_220,_130,_0.00)_100%,_rgba(2,_4,_32,_0.50)),url('/issues-card-bg.svg')]">
         <span class="text-5xl font-medium">{{ format(contributor.issues) }}</span>
         <span class="text-2xl">{{ contributor?.issues === 1 ? 'Issue' : 'Issues' }}</span>
       </div>

@@ -12,9 +12,8 @@ useHead({
 })
 
 useSeoMeta({
-  ogSiteName: 'Nuxters',
+  ogSiteName: 'npmxers',
   twitterCard: 'summary_large_image',
-  twitterSite: '@nuxt_js',
 })
 </script>
 
