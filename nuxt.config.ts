@@ -75,4 +75,10 @@ export default defineNuxtConfig({
       remoteURLPatterns: ['https://github.com/.*'],
     },
   },
+
+  ogImage: {
+    runtimeCacheStorage: {
+      driver: 'netlify-blobs',
+    },
+  },
 })
