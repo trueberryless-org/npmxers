@@ -28,7 +28,7 @@
       "all": 90
     },
     "helpful_issues": 34,
-    "comments": 206,
+    "comments": 207,
     "helpful_comments": 2,
     "reactions": 196,
     "score": 740
@@ -70,19 +70,19 @@
   {
     "username": "serhalp",
     "githubId": "1377702",
-    "issues": 23,
+    "issues": 25,
     "merged_pull_requests": {
       "docs": 3,
       "chore": 30,
       "feat": 13,
-      "fix": 24,
-      "all": 70
+      "fix": 25,
+      "all": 71
     },
     "helpful_issues": 18,
-    "comments": 193,
+    "comments": 194,
     "helpful_comments": 3,
-    "reactions": 154,
-    "score": 508
+    "reactions": 156,
+    "score": 516
   },
   {
     "username": "9romise",
@@ -521,10 +521,10 @@
       "all": 6
     },
     "helpful_issues": 2,
-    "comments": 64,
+    "comments": 65,
     "helpful_comments": 4,
     "reactions": 61,
-    "score": 92
+    "score": 93
   },
   {
     "username": "bluwy",
@@ -778,7 +778,7 @@
     "helpful_issues": 2,
     "comments": 26,
     "helpful_comments": 0,
-    "reactions": 17,
+    "reactions": 18,
     "score": 59
   },
   {
@@ -2839,6 +2839,23 @@
     "score": 11
   },
   {
+    "username": "sxzz",
+    "githubId": "6481596",
+    "issues": 2,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 2,
+    "comments": 3,
+    "helpful_comments": 0,
+    "reactions": 18,
+    "score": 11
+  },
+  {
     "username": "tcelestino",
     "githubId": "190265",
     "issues": 0,
@@ -3156,7 +3173,7 @@
       "all": 1
     },
     "helpful_issues": 0,
-    "comments": 3,
+    "comments": 4,
     "helpful_comments": 0,
     "reactions": 1,
     "score": 9
@@ -3499,23 +3516,6 @@
     "comments": 1,
     "helpful_comments": 0,
     "reactions": 2,
-    "score": 8
-  },
-  {
-    "username": "sxzz",
-    "githubId": "6481596",
-    "issues": 2,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 1,
-    "comments": 3,
-    "helpful_comments": 0,
-    "reactions": 16,
     "score": 8
   },
   {
@@ -5185,6 +5185,23 @@
     "score": 5
   },
   {
+    "username": "ProCode-Software",
+    "githubId": "68168458",
+    "issues": 2,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 5,
+    "helpful_comments": 0,
+    "reactions": 4,
+    "score": 5
+  },
+  {
     "username": "remcohaszing",
     "githubId": "779047",
     "issues": 1,
@@ -5964,23 +5981,6 @@
     "comments": 3,
     "helpful_comments": 1,
     "reactions": 6,
-    "score": 4
-  },
-  {
-    "username": "ProCode-Software",
-    "githubId": "68168458",
-    "issues": 2,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 4,
-    "helpful_comments": 0,
-    "reactions": 4,
     "score": 4
   },
   {
@@ -7718,6 +7718,23 @@
     "score": 1
   },
   {
+    "username": "nimrossum",
+    "githubId": "1959615",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 1,
+    "score": 1
+  },
+  {
     "username": "nnecec",
     "githubId": "11435907",
     "issues": 0,
@@ -8162,6 +8179,23 @@
   {
     "username": "fxderico",
     "githubId": "181262818",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 0
+  },
+  {
+    "username": "gittihub-jpg",
+    "githubId": "175419476",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
