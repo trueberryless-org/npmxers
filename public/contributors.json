@@ -30,7 +30,7 @@
     "helpful_issues": 35,
     "comments": 214,
     "helpful_comments": 2,
-    "reactions": 205,
+    "reactions": 206,
     "score": 781
   },
   {
@@ -181,7 +181,7 @@
       "all": 22
     },
     "helpful_issues": 24,
-    "comments": 144,
+    "comments": 145,
     "helpful_comments": 1,
     "reactions": 75,
     "score": 301
@@ -272,6 +272,23 @@
     "score": 219
   },
   {
+    "username": "ghostdevv",
+    "githubId": "47755378",
+    "issues": 11,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 2,
+      "feat": 1,
+      "fix": 3,
+      "all": 6
+    },
+    "helpful_issues": 5,
+    "comments": 281,
+    "helpful_comments": 4,
+    "reactions": 115,
+    "score": 214
+  },
+  {
     "username": "patak-cat",
     "githubId": "583075",
     "issues": 36,
@@ -287,23 +304,6 @@
     "helpful_comments": 5,
     "reactions": 95,
     "score": 214
-  },
-  {
-    "username": "ghostdevv",
-    "githubId": "47755378",
-    "issues": 11,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 2,
-      "feat": 1,
-      "fix": 3,
-      "all": 6
-    },
-    "helpful_issues": 5,
-    "comments": 279,
-    "helpful_comments": 4,
-    "reactions": 113,
-    "score": 213
   },
   {
     "username": "alex-key",
@@ -750,7 +750,7 @@
   {
     "username": "mootari",
     "githubId": "322014",
-    "issues": 15,
+    "issues": 16,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 1,
@@ -762,7 +762,7 @@
     "comments": 52,
     "helpful_comments": 1,
     "reactions": 34,
-    "score": 61
+    "score": 62
   },
   {
     "username": "jellydeck",
