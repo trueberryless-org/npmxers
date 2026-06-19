@@ -61,11 +61,11 @@
       "fix": 25,
       "all": 74
     },
-    "helpful_issues": 18,
+    "helpful_issues": 19,
     "comments": 196,
     "helpful_comments": 3,
-    "reactions": 163,
-    "score": 526
+    "reactions": 164,
+    "score": 529
   },
   {
     "username": "userquin",
@@ -113,10 +113,10 @@
       "all": 45
     },
     "helpful_issues": 15,
-    "comments": 170,
-    "helpful_comments": 5,
-    "reactions": 128,
-    "score": 407
+    "comments": 171,
+    "helpful_comments": 6,
+    "reactions": 131,
+    "score": 410
   },
   {
     "username": "wojtekmaj",
@@ -183,7 +183,7 @@
     "helpful_issues": 24,
     "comments": 149,
     "helpful_comments": 1,
-    "reactions": 77,
+    "reactions": 78,
     "score": 303
   },
   {
@@ -266,10 +266,10 @@
       "all": 37
     },
     "helpful_issues": 1,
-    "comments": 43,
+    "comments": 44,
     "helpful_comments": 0,
     "reactions": 26,
-    "score": 223
+    "score": 224
   },
   {
     "username": "ghostdevv",
@@ -470,7 +470,7 @@
       "all": 13
     },
     "helpful_issues": 3,
-    "comments": 27,
+    "comments": 28,
     "helpful_comments": 0,
     "reactions": 20,
     "score": 105
@@ -527,6 +527,23 @@
     "score": 94
   },
   {
+    "username": "bluwy",
+    "githubId": "34116392",
+    "issues": 2,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 2,
+      "feat": 6,
+      "fix": 6,
+      "all": 14
+    },
+    "helpful_issues": 1,
+    "comments": 6,
+    "helpful_comments": 0,
+    "reactions": 17,
+    "score": 88
+  },
+  {
     "username": "ShroXd",
     "githubId": "48713853",
     "issues": 2,
@@ -542,23 +559,6 @@
     "helpful_comments": 0,
     "reactions": 47,
     "score": 88
-  },
-  {
-    "username": "bluwy",
-    "githubId": "34116392",
-    "issues": 2,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 2,
-      "feat": 6,
-      "fix": 6,
-      "all": 14
-    },
-    "helpful_issues": 1,
-    "comments": 5,
-    "helpful_comments": 0,
-    "reactions": 16,
-    "score": 87
   },
   {
     "username": "nicolo-ribaudo",
@@ -708,10 +708,10 @@
       "all": 1
     },
     "helpful_issues": 5,
-    "comments": 55,
+    "comments": 56,
     "helpful_comments": 1,
-    "reactions": 37,
-    "score": 70
+    "reactions": 39,
+    "score": 71
   },
   {
     "username": "okineadev",
@@ -1135,8 +1135,8 @@
     "helpful_issues": 1,
     "comments": 7,
     "helpful_comments": 1,
-    "reactions": 8,
-    "score": 33
+    "reactions": 10,
+    "score": 34
   },
   {
     "username": "jonchurch",
@@ -1904,6 +1904,23 @@
     "score": 19
   },
   {
+    "username": "typed-sigterm",
+    "githubId": "145281501",
+    "issues": 6,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 1,
+    "comments": 8,
+    "helpful_comments": 2,
+    "reactions": 18,
+    "score": 19
+  },
+  {
     "username": "yuyinws",
     "githubId": "38490578",
     "issues": 0,
@@ -2499,23 +2516,6 @@
     "score": 13
   },
   {
-    "username": "typed-sigterm",
-    "githubId": "145281501",
-    "issues": 6,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 1,
-    "comments": 8,
-    "helpful_comments": 0,
-    "reactions": 4,
-    "score": 13
-  },
-  {
     "username": "colinscz",
     "githubId": "19342760",
     "issues": 0,
@@ -2547,6 +2547,23 @@
     "comments": 5,
     "helpful_comments": 0,
     "reactions": 2,
+    "score": 12
+  },
+  {
+    "username": "houtan-rocky",
+    "githubId": "62800782",
+    "issues": 3,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 1,
+      "all": 1
+    },
+    "helpful_issues": 1,
+    "comments": 2,
+    "helpful_comments": 0,
+    "reactions": 3,
     "score": 12
   },
   {
@@ -3278,23 +3295,6 @@
     "comments": 7,
     "helpful_comments": 0,
     "reactions": 4,
-    "score": 9
-  },
-  {
-    "username": "houtan-rocky",
-    "githubId": "62800782",
-    "issues": 3,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 1,
-      "all": 1
-    },
-    "helpful_issues": 0,
-    "comments": 2,
-    "helpful_comments": 0,
-    "reactions": 3,
     "score": 9
   },
   {
