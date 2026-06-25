@@ -453,7 +453,7 @@
       "all": 11
     },
     "helpful_issues": 6,
-    "comments": 32,
+    "comments": 33,
     "helpful_comments": 0,
     "reactions": 39,
     "score": 108
@@ -629,6 +629,23 @@
     "score": 79
   },
   {
+    "username": "mootari",
+    "githubId": "322014",
+    "issues": 22,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 1,
+      "feat": 0,
+      "fix": 0,
+      "all": 1
+    },
+    "helpful_issues": 6,
+    "comments": 60,
+    "helpful_comments": 1,
+    "reactions": 43,
+    "score": 79
+  },
+  {
     "username": "Kai-ros",
     "githubId": "27451904",
     "issues": 6,
@@ -643,23 +660,6 @@
     "comments": 15,
     "helpful_comments": 0,
     "reactions": 9,
-    "score": 78
-  },
-  {
-    "username": "mootari",
-    "githubId": "322014",
-    "issues": 21,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 1,
-      "feat": 0,
-      "fix": 0,
-      "all": 1
-    },
-    "helpful_issues": 6,
-    "comments": 60,
-    "helpful_comments": 1,
-    "reactions": 43,
     "score": 78
   },
   {
@@ -816,6 +816,23 @@
     "score": 59
   },
   {
+    "username": "TheAlexLichter",
+    "githubId": "640208",
+    "issues": 4,
+    "merged_pull_requests": {
+      "docs": 1,
+      "chore": 1,
+      "feat": 1,
+      "fix": 4,
+      "all": 7
+    },
+    "helpful_issues": 3,
+    "comments": 10,
+    "helpful_comments": 2,
+    "reactions": 22,
+    "score": 58
+  },
+  {
     "username": "DDeenis",
     "githubId": "40246260",
     "issues": 1,
@@ -848,23 +865,6 @@
     "helpful_comments": 0,
     "reactions": 5,
     "score": 54
-  },
-  {
-    "username": "TheAlexLichter",
-    "githubId": "640208",
-    "issues": 4,
-    "merged_pull_requests": {
-      "docs": 1,
-      "chore": 1,
-      "feat": 0,
-      "fix": 4,
-      "all": 6
-    },
-    "helpful_issues": 3,
-    "comments": 10,
-    "helpful_comments": 2,
-    "reactions": 21,
-    "score": 51
   },
   {
     "username": "VentyCZ",
@@ -3615,7 +3615,7 @@
       "all": 0
     },
     "helpful_issues": 1,
-    "comments": 5,
+    "comments": 6,
     "helpful_comments": 0,
     "reactions": 4,
     "score": 8
@@ -8587,6 +8587,23 @@
   {
     "username": "kohaiy",
     "githubId": "15622127",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 0
+  },
+  {
+    "username": "larsdouweschuitema",
+    "githubId": "8817968",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
