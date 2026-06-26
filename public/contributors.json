@@ -181,10 +181,10 @@
       "all": 22
     },
     "helpful_issues": 24,
-    "comments": 152,
+    "comments": 155,
     "helpful_comments": 1,
     "reactions": 80,
-    "score": 306
+    "score": 308
   },
   {
     "username": "RYGRIT",
@@ -291,7 +291,7 @@
   {
     "username": "patak-cat",
     "githubId": "583075",
-    "issues": 36,
+    "issues": 37,
     "merged_pull_requests": {
       "docs": 2,
       "chore": 7,
@@ -299,11 +299,11 @@
       "fix": 0,
       "all": 15
     },
-    "helpful_issues": 21,
+    "helpful_issues": 22,
     "comments": 49,
     "helpful_comments": 5,
-    "reactions": 96,
-    "score": 214
+    "reactions": 99,
+    "score": 218
   },
   {
     "username": "alex-key",
@@ -642,7 +642,7 @@
     "helpful_issues": 6,
     "comments": 60,
     "helpful_comments": 1,
-    "reactions": 43,
+    "reactions": 44,
     "score": 79
   },
   {
@@ -829,7 +829,7 @@
     "helpful_issues": 3,
     "comments": 10,
     "helpful_comments": 2,
-    "reactions": 22,
+    "reactions": 24,
     "score": 58
   },
   {
@@ -7718,6 +7718,23 @@
     "score": 1
   },
   {
+    "username": "jasongitmail",
+    "githubId": "50032291",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 1
+  },
+  {
     "username": "jcalixte",
     "githubId": "3417063",
     "issues": 0,
@@ -8604,6 +8621,23 @@
   {
     "username": "larsdouweschuitema",
     "githubId": "8817968",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 0
+  },
+  {
+    "username": "maraisr",
+    "githubId": "599459",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
