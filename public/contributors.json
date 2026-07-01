@@ -268,7 +268,7 @@
     "helpful_issues": 5,
     "comments": 300,
     "helpful_comments": 4,
-    "reactions": 121,
+    "reactions": 122,
     "score": 226
   },
   {
@@ -612,6 +612,23 @@
     "score": 85
   },
   {
+    "username": "mootari",
+    "githubId": "322014",
+    "issues": 22,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 1,
+      "feat": 0,
+      "fix": 0,
+      "all": 1
+    },
+    "helpful_issues": 7,
+    "comments": 60,
+    "helpful_comments": 1,
+    "reactions": 45,
+    "score": 83
+  },
+  {
     "username": "garthdw",
     "githubId": "383331",
     "issues": 0,
@@ -626,23 +643,6 @@
     "comments": 22,
     "helpful_comments": 0,
     "reactions": 14,
-    "score": 79
-  },
-  {
-    "username": "mootari",
-    "githubId": "322014",
-    "issues": 22,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 1,
-      "feat": 0,
-      "fix": 0,
-      "all": 1
-    },
-    "helpful_issues": 6,
-    "comments": 60,
-    "helpful_comments": 1,
-    "reactions": 44,
     "score": 79
   },
   {
@@ -1666,6 +1666,23 @@
     "score": 22
   },
   {
+    "username": "typed-sigterm",
+    "githubId": "145281501",
+    "issues": 6,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 1,
+    "comments": 8,
+    "helpful_comments": 3,
+    "reactions": 25,
+    "score": 22
+  },
+  {
     "username": "WarningImHack3r",
     "githubId": "43064022",
     "issues": 2,
@@ -1714,23 +1731,6 @@
     "comments": 0,
     "helpful_comments": 0,
     "reactions": 0,
-    "score": 21
-  },
-  {
-    "username": "typed-sigterm",
-    "githubId": "145281501",
-    "issues": 6,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 1,
-    "comments": 8,
-    "helpful_comments": 3,
-    "reactions": 23,
     "score": 21
   },
   {
