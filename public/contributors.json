@@ -13,7 +13,7 @@
     "helpful_issues": 22,
     "comments": 398,
     "helpful_comments": 4,
-    "reactions": 389,
+    "reactions": 390,
     "score": 815
   },
   {
@@ -30,7 +30,7 @@
     "helpful_issues": 36,
     "comments": 223,
     "helpful_comments": 2,
-    "reactions": 216,
+    "reactions": 217,
     "score": 810
   },
   {
@@ -39,16 +39,16 @@
     "issues": 42,
     "merged_pull_requests": {
       "docs": 0,
-      "chore": 16,
-      "feat": 29,
+      "chore": 17,
+      "feat": 30,
       "fix": 49,
-      "all": 94
+      "all": 96
     },
     "helpful_issues": 33,
     "comments": 228,
     "helpful_comments": 8,
     "reactions": 214,
-    "score": 788
+    "score": 798
   },
   {
     "username": "serhalp",
@@ -5542,6 +5542,23 @@
     "score": 5
   },
   {
+    "username": "SuperchupuDev",
+    "githubId": "53496941",
+    "issues": 2,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 1,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 4,
+    "score": 5
+  },
+  {
     "username": "theoephraim",
     "githubId": "1158956",
     "issues": 1,
@@ -6355,23 +6372,6 @@
     "comments": 0,
     "helpful_comments": 0,
     "reactions": 0,
-    "score": 4
-  },
-  {
-    "username": "SuperchupuDev",
-    "githubId": "53496941",
-    "issues": 1,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 1,
-    "comments": 0,
-    "helpful_comments": 0,
-    "reactions": 3,
     "score": 4
   },
   {
