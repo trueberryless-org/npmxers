@@ -143,14 +143,14 @@
       "docs": 1,
       "chore": 5,
       "feat": 8,
-      "fix": 28,
-      "all": 42
+      "fix": 29,
+      "all": 43
     },
     "helpful_issues": 21,
     "comments": 74,
     "helpful_comments": 1,
     "reactions": 60,
-    "score": 347
+    "score": 352
   },
   {
     "username": "trueberryless",
@@ -166,7 +166,7 @@
     "helpful_issues": 10,
     "comments": 125,
     "helpful_comments": 3,
-    "reactions": 153,
+    "reactions": 154,
     "score": 339
   },
   {
@@ -1883,7 +1883,7 @@
     "helpful_issues": 2,
     "comments": 4,
     "helpful_comments": 0,
-    "reactions": 2,
+    "reactions": 3,
     "score": 19
   },
   {
@@ -3448,6 +3448,23 @@
     "comments": 1,
     "helpful_comments": 0,
     "reactions": 0,
+    "score": 9
+  },
+  {
+    "username": "mvanhorn",
+    "githubId": "455140",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 1,
+      "fix": 0,
+      "all": 1
+    },
+    "helpful_issues": 0,
+    "comments": 3,
+    "helpful_comments": 0,
+    "reactions": 7,
     "score": 9
   },
   {
@@ -6885,6 +6902,23 @@
     "score": 2
   },
   {
+    "username": "juninhokaponne",
+    "githubId": "49099875",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 2
+  },
+  {
     "username": "kane50613",
     "githubId": "33802653",
     "issues": 0,
@@ -6984,23 +7018,6 @@
     "comments": 2,
     "helpful_comments": 0,
     "reactions": 3,
-    "score": 2
-  },
-  {
-    "username": "mvanhorn",
-    "githubId": "455140",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 2,
-    "helpful_comments": 0,
-    "reactions": 7,
     "score": 2
   },
   {
@@ -7356,6 +7373,23 @@
     },
     "helpful_issues": 0,
     "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 1
+  },
+  {
+    "username": "ascorbic",
+    "githubId": "213306",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
     "helpful_comments": 0,
     "reactions": 0,
     "score": 1
