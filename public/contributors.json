@@ -155,7 +155,7 @@
   {
     "username": "trueberryless",
     "githubId": "99918022",
-    "issues": 11,
+    "issues": 12,
     "merged_pull_requests": {
       "docs": 3,
       "chore": 4,
@@ -166,8 +166,8 @@
     "helpful_issues": 10,
     "comments": 130,
     "helpful_comments": 3,
-    "reactions": 156,
-    "score": 345
+    "reactions": 158,
+    "score": 346
   },
   {
     "username": "gameroman",
@@ -319,7 +319,7 @@
     "helpful_issues": 14,
     "comments": 99,
     "helpful_comments": 0,
-    "reactions": 46,
+    "reactions": 47,
     "score": 191
   },
   {
@@ -2159,6 +2159,23 @@
     "score": 15
   },
   {
+    "username": "jviide",
+    "githubId": "19776768",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 1,
+      "fix": 0,
+      "all": 1
+    },
+    "helpful_issues": 0,
+    "comments": 6,
+    "helpful_comments": 2,
+    "reactions": 12,
+    "score": 15
+  },
+  {
     "username": "Kiwow",
     "githubId": "60345799",
     "issues": 0,
@@ -3635,23 +3652,6 @@
     "comments": 1,
     "helpful_comments": 0,
     "reactions": 0,
-    "score": 8
-  },
-  {
-    "username": "jviide",
-    "githubId": "19776768",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 6,
-    "helpful_comments": 2,
-    "reactions": 12,
     "score": 8
   },
   {
@@ -7616,6 +7616,23 @@
     "score": 1
   },
   {
+    "username": "elio-Wang",
+    "githubId": "217174207",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 1
+  },
+  {
     "username": "elracing",
     "githubId": "55640950",
     "issues": 0,
@@ -7885,23 +7902,6 @@
     "comments": 1,
     "helpful_comments": 0,
     "reactions": 1,
-    "score": 1
-  },
-  {
-    "username": "jack-old-archive",
-    "githubId": "217174207",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 1,
-    "helpful_comments": 0,
-    "reactions": 0,
     "score": 1
   },
   {
