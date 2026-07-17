@@ -104,7 +104,7 @@
   {
     "username": "MatteoGabriele",
     "githubId": "5337152",
-    "issues": 15,
+    "issues": 16,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 10,
@@ -116,7 +116,7 @@
     "comments": 175,
     "helpful_comments": 6,
     "reactions": 132,
-    "score": 412
+    "score": 413
   },
   {
     "username": "wojtekmaj",
@@ -1558,7 +1558,7 @@
       "all": 0
     },
     "helpful_issues": 2,
-    "comments": 8,
+    "comments": 9,
     "helpful_comments": 3,
     "reactions": 27,
     "score": 25
@@ -1751,6 +1751,23 @@
     "score": 22
   },
   {
+    "username": "martinszeltins",
+    "githubId": "34019878",
+    "issues": 6,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 4,
+    "comments": 5,
+    "helpful_comments": 0,
+    "reactions": 6,
+    "score": 21
+  },
+  {
     "username": "penjj",
     "githubId": "32674989",
     "issues": 0,
@@ -1867,23 +1884,6 @@
     "comments": 0,
     "helpful_comments": 0,
     "reactions": 5,
-    "score": 20
-  },
-  {
-    "username": "martinszeltins",
-    "githubId": "34019878",
-    "issues": 5,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 4,
-    "comments": 5,
-    "helpful_comments": 0,
-    "reactions": 6,
     "score": 20
   },
   {
