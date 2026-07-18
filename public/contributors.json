@@ -30,7 +30,7 @@
     "helpful_issues": 22,
     "comments": 398,
     "helpful_comments": 5,
-    "reactions": 393,
+    "reactions": 394,
     "score": 821
   },
   {
@@ -68,6 +68,23 @@
     "score": 531
   },
   {
+    "username": "9romise",
+    "githubId": "38204901",
+    "issues": 17,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 25,
+      "feat": 39,
+      "fix": 15,
+      "all": 79
+    },
+    "helpful_issues": 17,
+    "comments": 41,
+    "helpful_comments": 2,
+    "reactions": 45,
+    "score": 520
+  },
+  {
     "username": "userquin",
     "githubId": "6311119",
     "issues": 5,
@@ -85,23 +102,6 @@
     "score": 518
   },
   {
-    "username": "9romise",
-    "githubId": "38204901",
-    "issues": 17,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 25,
-      "feat": 38,
-      "fix": 15,
-      "all": 78
-    },
-    "helpful_issues": 17,
-    "comments": 41,
-    "helpful_comments": 2,
-    "reactions": 45,
-    "score": 513
-  },
-  {
     "username": "MatteoGabriele",
     "githubId": "5337152",
     "issues": 16,
@@ -115,7 +115,7 @@
     "helpful_issues": 15,
     "comments": 175,
     "helpful_comments": 6,
-    "reactions": 132,
+    "reactions": 134,
     "score": 413
   },
   {
@@ -176,15 +176,15 @@
     "merged_pull_requests": {
       "docs": 0,
       "chore": 3,
-      "feat": 5,
+      "feat": 6,
       "fix": 15,
-      "all": 23
+      "all": 24
     },
     "helpful_issues": 26,
     "comments": 175,
     "helpful_comments": 2,
-    "reactions": 93,
-    "score": 335
+    "reactions": 94,
+    "score": 342
   },
   {
     "username": "RYGRIT",
@@ -302,7 +302,7 @@
     "helpful_issues": 22,
     "comments": 51,
     "helpful_comments": 5,
-    "reactions": 103,
+    "reactions": 104,
     "score": 220
   },
   {
@@ -1428,6 +1428,23 @@
     "score": 27
   },
   {
+    "username": "hyoban",
+    "githubId": "38493346",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 3,
+      "fix": 1,
+      "all": 4
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 3,
+    "score": 27
+  },
+  {
     "username": "lishaduck",
     "githubId": "88557639",
     "issues": 7,
@@ -1836,23 +1853,6 @@
     "score": 20
   },
   {
-    "username": "hyoban",
-    "githubId": "38493346",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 2,
-      "fix": 1,
-      "all": 3
-    },
-    "helpful_issues": 0,
-    "comments": 1,
-    "helpful_comments": 0,
-    "reactions": 2,
-    "score": 20
-  },
-  {
     "username": "julien-deramond",
     "githubId": "17381666",
     "issues": 0,
@@ -1867,6 +1867,23 @@
     "comments": 0,
     "helpful_comments": 0,
     "reactions": 1,
+    "score": 20
+  },
+  {
+    "username": "jviide",
+    "githubId": "19776768",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 1,
+      "fix": 1,
+      "all": 2
+    },
+    "helpful_issues": 0,
+    "comments": 6,
+    "helpful_comments": 2,
+    "reactions": 14,
     "score": 20
   },
   {
@@ -2156,23 +2173,6 @@
     "comments": 0,
     "helpful_comments": 0,
     "reactions": 1,
-    "score": 15
-  },
-  {
-    "username": "jviide",
-    "githubId": "19776768",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 1,
-      "fix": 0,
-      "all": 1
-    },
-    "helpful_issues": 0,
-    "comments": 6,
-    "helpful_comments": 2,
-    "reactions": 12,
     "score": 15
   },
   {
@@ -9046,6 +9046,23 @@
   {
     "username": "uchkunr",
     "githubId": "105480357",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 0
+  },
+  {
+    "username": "xusnitdinov",
+    "githubId": "252487890",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
