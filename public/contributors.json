@@ -187,6 +187,23 @@
     "score": 342
   },
   {
+    "username": "43081j",
+    "githubId": "5677153",
+    "issues": 10,
+    "merged_pull_requests": {
+      "docs": 1,
+      "chore": 35,
+      "feat": 7,
+      "fix": 5,
+      "all": 48
+    },
+    "helpful_issues": 8,
+    "comments": 103,
+    "helpful_comments": 7,
+    "reactions": 138,
+    "score": 296
+  },
+  {
     "username": "RYGRIT",
     "githubId": "62373365",
     "issues": 6,
@@ -202,23 +219,6 @@
     "helpful_comments": 1,
     "reactions": 54,
     "score": 288
-  },
-  {
-    "username": "43081j",
-    "githubId": "5677153",
-    "issues": 10,
-    "merged_pull_requests": {
-      "docs": 1,
-      "chore": 35,
-      "feat": 7,
-      "fix": 5,
-      "all": 48
-    },
-    "helpful_issues": 8,
-    "comments": 99,
-    "helpful_comments": 4,
-    "reactions": 114,
-    "score": 286
   },
   {
     "username": "ghostdevv",
@@ -2720,6 +2720,23 @@
     "score": 12
   },
   {
+    "username": "mcollina",
+    "githubId": "52195",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 1,
+    "comments": 3,
+    "helpful_comments": 1,
+    "reactions": 40,
+    "score": 12
+  },
+  {
     "username": "nulfrost",
     "githubId": "16832258",
     "issues": 1,
@@ -3791,6 +3808,23 @@
     "score": 8
   },
   {
+    "username": "whoisanku",
+    "githubId": "85058931",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 1,
+      "fix": 0,
+      "all": 1
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 8
+  },
+  {
     "username": "adeak-bar25",
     "githubId": "160657955",
     "issues": 0,
@@ -4315,23 +4349,6 @@
     "comments": 3,
     "helpful_comments": 0,
     "reactions": 2,
-    "score": 7
-  },
-  {
-    "username": "whoisanku",
-    "githubId": "85058931",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 1,
-      "fix": 0,
-      "all": 1
-    },
-    "helpful_issues": 0,
-    "comments": 0,
-    "helpful_comments": 0,
-    "reactions": 0,
     "score": 7
   },
   {
@@ -6222,6 +6239,23 @@
     "score": 4
   },
   {
+    "username": "justinfagnani",
+    "githubId": "522948",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 1,
+    "reactions": 11,
+    "score": 4
+  },
+  {
     "username": "kachkaev",
     "githubId": "608862",
     "issues": 1,
@@ -6666,6 +6700,23 @@
   {
     "username": "gxjansen",
     "githubId": "487722",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 1,
+    "reactions": 3,
+    "score": 3
+  },
+  {
+    "username": "hugoattal",
+    "githubId": "4563971",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
@@ -7567,6 +7618,23 @@
   {
     "username": "cernymatej",
     "githubId": "112722215",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 1
+  },
+  {
+    "username": "craigjones-dev",
+    "githubId": "31535240",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
@@ -8616,6 +8684,23 @@
     "comments": 1,
     "helpful_comments": 0,
     "reactions": 0,
+    "score": 1
+  },
+  {
+    "username": "timdorr",
+    "githubId": "17882",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 2,
+    "helpful_comments": 0,
+    "reactions": 2,
     "score": 1
   },
   {
