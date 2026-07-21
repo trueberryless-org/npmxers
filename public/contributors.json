@@ -73,16 +73,16 @@
     "issues": 17,
     "merged_pull_requests": {
       "docs": 0,
-      "chore": 25,
+      "chore": 26,
       "feat": 39,
       "fix": 15,
-      "all": 79
+      "all": 80
     },
     "helpful_issues": 17,
     "comments": 41,
     "helpful_comments": 2,
     "reactions": 45,
-    "score": 520
+    "score": 523
   },
   {
     "username": "userquin",
@@ -546,7 +546,7 @@
   {
     "username": "jhroemer",
     "githubId": "26376491",
-    "issues": 1,
+    "issues": 3,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 2,
@@ -555,10 +555,10 @@
       "all": 13
     },
     "helpful_issues": 1,
-    "comments": 23,
+    "comments": 25,
     "helpful_comments": 1,
-    "reactions": 21,
-    "score": 89
+    "reactions": 24,
+    "score": 92
   },
   {
     "username": "bluwy",
@@ -1577,7 +1577,7 @@
     "helpful_issues": 2,
     "comments": 9,
     "helpful_comments": 3,
-    "reactions": 27,
+    "reactions": 28,
     "score": 25
   },
   {
@@ -2240,7 +2240,7 @@
     "helpful_issues": 1,
     "comments": 3,
     "helpful_comments": 2,
-    "reactions": 53,
+    "reactions": 57,
     "score": 15
   },
   {
@@ -2257,7 +2257,7 @@
     "helpful_issues": 2,
     "comments": 3,
     "helpful_comments": 0,
-    "reactions": 20,
+    "reactions": 21,
     "score": 15
   },
   {
@@ -4063,6 +4063,23 @@
     "score": 7
   },
   {
+    "username": "igorskyflyer",
+    "githubId": "20957750",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 1,
+      "all": 1
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 2,
+    "score": 7
+  },
+  {
     "username": "JoshuaKGoldberg",
     "githubId": "3335181",
     "issues": 2,
@@ -4604,23 +4621,6 @@
     "comments": 5,
     "helpful_comments": 1,
     "reactions": 13,
-    "score": 6
-  },
-  {
-    "username": "igorskyflyer",
-    "githubId": "20957750",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 1,
-      "all": 1
-    },
-    "helpful_issues": 0,
-    "comments": 1,
-    "helpful_comments": 0,
-    "reactions": 2,
     "score": 6
   },
   {
