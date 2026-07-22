@@ -11,10 +11,10 @@
       "all": 104
     },
     "helpful_issues": 37,
-    "comments": 233,
+    "comments": 236,
     "helpful_comments": 2,
-    "reactions": 232,
-    "score": 845
+    "reactions": 233,
+    "score": 846
   },
   {
     "username": "danielroe",
@@ -75,14 +75,14 @@
       "docs": 0,
       "chore": 26,
       "feat": 39,
-      "fix": 15,
-      "all": 80
+      "fix": 16,
+      "all": 81
     },
     "helpful_issues": 17,
     "comments": 41,
     "helpful_comments": 2,
     "reactions": 45,
-    "score": 523
+    "score": 528
   },
   {
     "username": "userquin",
@@ -115,7 +115,7 @@
     "helpful_issues": 15,
     "comments": 175,
     "helpful_comments": 6,
-    "reactions": 134,
+    "reactions": 135,
     "score": 413
   },
   {
@@ -2240,7 +2240,7 @@
     "helpful_issues": 1,
     "comments": 3,
     "helpful_comments": 2,
-    "reactions": 57,
+    "reactions": 58,
     "score": 15
   },
   {
@@ -2482,6 +2482,23 @@
     "score": 13
   },
   {
+    "username": "juninhokaponne",
+    "githubId": "49099875",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 1,
+      "all": 1
+    },
+    "helpful_issues": 1,
+    "comments": 7,
+    "helpful_comments": 0,
+    "reactions": 3,
+    "score": 13
+  },
+  {
     "username": "lukeocodes",
     "githubId": "956290",
     "issues": 2,
@@ -2496,6 +2513,23 @@
     "comments": 6,
     "helpful_comments": 0,
     "reactions": 4,
+    "score": 13
+  },
+  {
+    "username": "MaxwellCohen",
+    "githubId": "12485737",
+    "issues": 2,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 1,
+      "all": 1
+    },
+    "helpful_issues": 1,
+    "comments": 5,
+    "helpful_comments": 0,
+    "reactions": 1,
     "score": 13
   },
   {
@@ -2754,23 +2788,6 @@
     "score": 12
   },
   {
-    "username": "MaxwellCohen",
-    "githubId": "12485737",
-    "issues": 1,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 1,
-      "all": 1
-    },
-    "helpful_issues": 1,
-    "comments": 5,
-    "helpful_comments": 0,
-    "reactions": 1,
-    "score": 12
-  },
-  {
     "username": "nulfrost",
     "githubId": "16832258",
     "issues": 1,
@@ -2955,23 +2972,6 @@
     "comments": 2,
     "helpful_comments": 0,
     "reactions": 0,
-    "score": 11
-  },
-  {
-    "username": "juninhokaponne",
-    "githubId": "49099875",
-    "issues": 1,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 1,
-      "all": 1
-    },
-    "helpful_issues": 1,
-    "comments": 3,
-    "helpful_comments": 0,
-    "reactions": 1,
     "score": 11
   },
   {
