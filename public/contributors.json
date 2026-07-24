@@ -11,10 +11,10 @@
       "all": 104
     },
     "helpful_issues": 37,
-    "comments": 236,
+    "comments": 237,
     "helpful_comments": 2,
-    "reactions": 234,
-    "score": 846
+    "reactions": 236,
+    "score": 847
   },
   {
     "username": "danielroe",
@@ -113,10 +113,10 @@
       "all": 45
     },
     "helpful_issues": 15,
-    "comments": 178,
+    "comments": 179,
     "helpful_comments": 6,
-    "reactions": 138,
-    "score": 415
+    "reactions": 140,
+    "score": 416
   },
   {
     "username": "wojtekmaj",
@@ -164,10 +164,10 @@
       "all": 25
     },
     "helpful_issues": 27,
-    "comments": 177,
+    "comments": 178,
     "helpful_comments": 2,
-    "reactions": 97,
-    "score": 351
+    "reactions": 98,
+    "score": 352
   },
   {
     "username": "trueberryless",
@@ -192,16 +192,16 @@
     "issues": 10,
     "merged_pull_requests": {
       "docs": 1,
-      "chore": 35,
+      "chore": 36,
       "feat": 7,
       "fix": 5,
-      "all": 48
+      "all": 49
     },
     "helpful_issues": 8,
     "comments": 103,
     "helpful_comments": 7,
     "reactions": 148,
-    "score": 297
+    "score": 300
   },
   {
     "username": "RYGRIT",
@@ -472,7 +472,7 @@
     "helpful_issues": 2,
     "comments": 80,
     "helpful_comments": 6,
-    "reactions": 80,
+    "reactions": 81,
     "score": 113
   },
   {
@@ -557,7 +557,7 @@
     "helpful_issues": 1,
     "comments": 25,
     "helpful_comments": 1,
-    "reactions": 24,
+    "reactions": 25,
     "score": 92
   },
   {
@@ -1339,7 +1339,7 @@
     "helpful_issues": 2,
     "comments": 9,
     "helpful_comments": 3,
-    "reactions": 28,
+    "reactions": 29,
     "score": 30
   },
   {
@@ -2221,7 +2221,7 @@
       "all": 1
     },
     "helpful_issues": 1,
-    "comments": 9,
+    "comments": 10,
     "helpful_comments": 0,
     "reactions": 4,
     "score": 15
@@ -2377,6 +2377,23 @@
     "comments": 0,
     "helpful_comments": 0,
     "reactions": 1,
+    "score": 14
+  },
+  {
+    "username": "Netail",
+    "githubId": "11695769",
+    "issues": 4,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 3,
+    "comments": 2,
+    "helpful_comments": 0,
+    "reactions": 2,
     "score": 14
   },
   {
@@ -2579,23 +2596,6 @@
     },
     "helpful_issues": 2,
     "comments": 7,
-    "helpful_comments": 0,
-    "reactions": 1,
-    "score": 13
-  },
-  {
-    "username": "Netail",
-    "githubId": "11695769",
-    "issues": 3,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 3,
-    "comments": 2,
     "helpful_comments": 0,
     "reactions": 1,
     "score": 13
@@ -3141,7 +3141,7 @@
     "helpful_issues": 0,
     "comments": 6,
     "helpful_comments": 0,
-    "reactions": 6,
+    "reactions": 7,
     "score": 11
   },
   {
@@ -3632,7 +3632,7 @@
       "all": 1
     },
     "helpful_issues": 0,
-    "comments": 1,
+    "comments": 2,
     "helpful_comments": 0,
     "reactions": 1,
     "score": 9
@@ -7905,6 +7905,23 @@
     "score": 1
   },
   {
+    "username": "gu-stav",
+    "githubId": "2244375",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 1
+  },
+  {
     "username": "h4z5l",
     "githubId": "249735865",
     "issues": 0,
@@ -8157,6 +8174,23 @@
     "comments": 1,
     "helpful_comments": 0,
     "reactions": 0,
+    "score": 1
+  },
+  {
+    "username": "LateeshaNarnolia104",
+    "githubId": "190778810",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 1,
     "score": 1
   },
   {
