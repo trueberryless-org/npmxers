@@ -231,11 +231,11 @@
       "fix": 4,
       "all": 10
     },
-    "helpful_issues": 6,
-    "comments": 349,
+    "helpful_issues": 7,
+    "comments": 351,
     "helpful_comments": 4,
     "reactions": 136,
-    "score": 271
+    "score": 275
   },
   {
     "username": "whitep4nth3r",
@@ -447,16 +447,16 @@
     "issues": 2,
     "merged_pull_requests": {
       "docs": 0,
-      "chore": 0,
+      "chore": 1,
       "feat": 5,
       "fix": 2,
-      "all": 7
+      "all": 8
     },
     "helpful_issues": 2,
     "comments": 82,
     "helpful_comments": 6,
     "reactions": 85,
-    "score": 115
+    "score": 118
   },
   {
     "username": "BittuBarnwal7479",
@@ -470,10 +470,10 @@
       "all": 8
     },
     "helpful_issues": 9,
-    "comments": 57,
+    "comments": 58,
     "helpful_comments": 0,
     "reactions": 26,
-    "score": 114
+    "score": 115
   },
   {
     "username": "fatfingers23",
@@ -561,6 +561,23 @@
     "score": 94
   },
   {
+    "username": "mootari",
+    "githubId": "322014",
+    "issues": 23,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 1,
+      "feat": 0,
+      "fix": 0,
+      "all": 1
+    },
+    "helpful_issues": 9,
+    "comments": 61,
+    "helpful_comments": 1,
+    "reactions": 50,
+    "score": 91
+  },
+  {
     "username": "bluwy",
     "githubId": "34116392",
     "issues": 2,
@@ -575,23 +592,6 @@
     "comments": 6,
     "helpful_comments": 0,
     "reactions": 17,
-    "score": 88
-  },
-  {
-    "username": "mootari",
-    "githubId": "322014",
-    "issues": 23,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 1,
-      "feat": 0,
-      "fix": 0,
-      "all": 1
-    },
-    "helpful_issues": 8,
-    "comments": 61,
-    "helpful_comments": 1,
-    "reactions": 50,
     "score": 88
   },
   {
@@ -1968,7 +1968,7 @@
     "helpful_issues": 0,
     "comments": 1,
     "helpful_comments": 0,
-    "reactions": 5,
+    "reactions": 6,
     "score": 20
   },
   {
@@ -2071,6 +2071,23 @@
     "comments": 6,
     "helpful_comments": 0,
     "reactions": 3,
+    "score": 19
+  },
+  {
+    "username": "WilhelmBerggren",
+    "githubId": "20476041",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 1,
+      "fix": 2,
+      "all": 3
+    },
+    "helpful_issues": 0,
+    "comments": 2,
+    "helpful_comments": 0,
+    "reactions": 1,
     "score": 19
   },
   {
@@ -2224,6 +2241,23 @@
     "comments": 0,
     "helpful_comments": 0,
     "reactions": 1,
+    "score": 15
+  },
+  {
+    "username": "houtanrocky",
+    "githubId": "62800782",
+    "issues": 3,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 1,
+      "all": 1
+    },
+    "helpful_issues": 2,
+    "comments": 2,
+    "helpful_comments": 0,
+    "reactions": 3,
     "score": 15
   },
   {
@@ -2768,23 +2802,6 @@
     "comments": 5,
     "helpful_comments": 0,
     "reactions": 2,
-    "score": 12
-  },
-  {
-    "username": "houtanrocky",
-    "githubId": "62800782",
-    "issues": 3,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 1,
-      "all": 1
-    },
-    "helpful_issues": 1,
-    "comments": 2,
-    "helpful_comments": 0,
-    "reactions": 3,
     "score": 12
   },
   {
@@ -3672,23 +3689,6 @@
     "score": 9
   },
   {
-    "username": "WilhelmBerggren",
-    "githubId": "20476041",
-    "issues": 1,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 1,
-      "fix": 0,
-      "all": 1
-    },
-    "helpful_issues": 0,
-    "comments": 2,
-    "helpful_comments": 0,
-    "reactions": 1,
-    "score": 9
-  },
-  {
     "username": "yannbf",
     "githubId": "1671563",
     "issues": 0,
@@ -4500,6 +4500,23 @@
     },
     "helpful_issues": 0,
     "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 6
+  },
+  {
+    "username": "anilloutombam",
+    "githubId": "23106365",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 1,
+      "all": 1
+    },
+    "helpful_issues": 0,
+    "comments": 1,
     "helpful_comments": 0,
     "reactions": 0,
     "score": 6
