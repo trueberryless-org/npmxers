@@ -98,7 +98,7 @@
     "helpful_issues": 3,
     "comments": 86,
     "helpful_comments": 1,
-    "reactions": 42,
+    "reactions": 43,
     "score": 521
   },
   {
@@ -121,7 +121,7 @@
   {
     "username": "gameroman",
     "githubId": "121314722",
-    "issues": 39,
+    "issues": 40,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 5,
@@ -130,10 +130,10 @@
       "all": 28
     },
     "helpful_issues": 29,
-    "comments": 185,
+    "comments": 186,
     "helpful_comments": 2,
     "reactions": 103,
-    "score": 375
+    "score": 376
   },
   {
     "username": "wojtekmaj",
@@ -442,6 +442,23 @@
     "score": 128
   },
   {
+    "username": "BittuBarnwal7479",
+    "githubId": "254699006",
+    "issues": 12,
+    "merged_pull_requests": {
+      "docs": 2,
+      "chore": 0,
+      "feat": 3,
+      "fix": 3,
+      "all": 8
+    },
+    "helpful_issues": 10,
+    "comments": 58,
+    "helpful_comments": 0,
+    "reactions": 26,
+    "score": 118
+  },
+  {
     "username": "WilcoSp",
     "githubId": "17604138",
     "issues": 2,
@@ -457,23 +474,6 @@
     "helpful_comments": 6,
     "reactions": 85,
     "score": 118
-  },
-  {
-    "username": "BittuBarnwal7479",
-    "githubId": "254699006",
-    "issues": 12,
-    "merged_pull_requests": {
-      "docs": 2,
-      "chore": 0,
-      "feat": 3,
-      "fix": 3,
-      "all": 8
-    },
-    "helpful_issues": 9,
-    "comments": 58,
-    "helpful_comments": 0,
-    "reactions": 26,
-    "score": 115
   },
   {
     "username": "fatfingers23",
@@ -4516,7 +4516,7 @@
       "all": 1
     },
     "helpful_issues": 0,
-    "comments": 1,
+    "comments": 2,
     "helpful_comments": 0,
     "reactions": 0,
     "score": 6
