@@ -115,25 +115,25 @@
     "helpful_issues": 15,
     "comments": 179,
     "helpful_comments": 6,
-    "reactions": 142,
+    "reactions": 143,
     "score": 426
   },
   {
     "username": "gameroman",
     "githubId": "121314722",
-    "issues": 40,
+    "issues": 42,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 5,
       "feat": 6,
-      "fix": 17,
-      "all": 28
+      "fix": 18,
+      "all": 29
     },
-    "helpful_issues": 29,
-    "comments": 186,
+    "helpful_issues": 30,
+    "comments": 188,
     "helpful_comments": 2,
-    "reactions": 103,
-    "score": 376
+    "reactions": 104,
+    "score": 387
   },
   {
     "username": "wojtekmaj",
@@ -232,10 +232,10 @@
       "all": 10
     },
     "helpful_issues": 7,
-    "comments": 351,
+    "comments": 354,
     "helpful_comments": 4,
-    "reactions": 136,
-    "score": 275
+    "reactions": 138,
+    "score": 277
   },
   {
     "username": "whitep4nth3r",
@@ -2941,6 +2941,23 @@
     "score": 11
   },
   {
+    "username": "anilloutombam",
+    "githubId": "23106365",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 2,
+      "all": 2
+    },
+    "helpful_issues": 0,
+    "comments": 2,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 11
+  },
+  {
     "username": "aqandrew",
     "githubId": "9038965",
     "issues": 0,
@@ -3774,6 +3791,23 @@
     "score": 8
   },
   {
+    "username": "KazariAI",
+    "githubId": "166915487",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 1,
+      "feat": 0,
+      "fix": 1,
+      "all": 2
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 8
+  },
+  {
     "username": "KirankumarAmbati",
     "githubId": "9110567",
     "issues": 0,
@@ -4500,23 +4534,6 @@
     },
     "helpful_issues": 0,
     "comments": 0,
-    "helpful_comments": 0,
-    "reactions": 0,
-    "score": 6
-  },
-  {
-    "username": "anilloutombam",
-    "githubId": "23106365",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 1,
-      "all": 1
-    },
-    "helpful_issues": 0,
-    "comments": 2,
     "helpful_comments": 0,
     "reactions": 0,
     "score": 6
@@ -5493,23 +5510,6 @@
   {
     "username": "jp-knj",
     "githubId": "70939128",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 1,
-      "all": 1
-    },
-    "helpful_issues": 0,
-    "comments": 0,
-    "helpful_comments": 0,
-    "reactions": 0,
-    "score": 5
-  },
-  {
-    "username": "KazariAI",
-    "githubId": "166915487",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
@@ -8191,6 +8191,23 @@
     "comments": 1,
     "helpful_comments": 0,
     "reactions": 1,
+    "score": 1
+  },
+  {
+    "username": "jibin7jose",
+    "githubId": "154683374",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 0,
     "score": 1
   },
   {
