@@ -115,7 +115,7 @@
     "helpful_issues": 31,
     "comments": 241,
     "helpful_comments": 2,
-    "reactions": 111,
+    "reactions": 112,
     "score": 438
   },
   {
@@ -132,7 +132,7 @@
     "helpful_issues": 15,
     "comments": 181,
     "helpful_comments": 6,
-    "reactions": 148,
+    "reactions": 149,
     "score": 430
   },
   {
@@ -9080,6 +9080,23 @@
   {
     "username": "Ai-chan-0411",
     "githubId": "275152799",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 0
+  },
+  {
+    "username": "ColumbusLabs",
+    "githubId": "287001685",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
