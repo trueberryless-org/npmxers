@@ -5,16 +5,16 @@
     "issues": 46,
     "merged_pull_requests": {
       "docs": 0,
-      "chore": 20,
+      "chore": 21,
       "feat": 30,
       "fix": 56,
-      "all": 106
+      "all": 107
     },
     "helpful_issues": 37,
     "comments": 243,
     "helpful_comments": 3,
     "reactions": 243,
-    "score": 859
+    "score": 862
   },
   {
     "username": "danielroe",
@@ -266,9 +266,9 @@
       "all": 40
     },
     "helpful_issues": 1,
-    "comments": 51,
+    "comments": 52,
     "helpful_comments": 1,
-    "reactions": 32,
+    "reactions": 33,
     "score": 246
   },
   {
@@ -903,7 +903,7 @@
   {
     "username": "lorypelli",
     "githubId": "87276663",
-    "issues": 12,
+    "issues": 13,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 1,
@@ -915,7 +915,7 @@
     "comments": 10,
     "helpful_comments": 0,
     "reactions": 5,
-    "score": 45
+    "score": 46
   },
   {
     "username": "sacrosanctic",
@@ -3859,6 +3859,23 @@
     "score": 8
   },
   {
+    "username": "leekeh",
+    "githubId": "71131586",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 1,
+      "chore": 1,
+      "feat": 0,
+      "fix": 0,
+      "all": 2
+    },
+    "helpful_issues": 0,
+    "comments": 2,
+    "helpful_comments": 0,
+    "reactions": 3,
+    "score": 8
+  },
+  {
     "username": "LuLaValva",
     "githubId": "26027232",
     "issues": 0,
@@ -5610,23 +5627,6 @@
     "score": 5
   },
   {
-    "username": "leekeh",
-    "githubId": "71131586",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 1,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 1
-    },
-    "helpful_issues": 0,
-    "comments": 2,
-    "helpful_comments": 0,
-    "reactions": 2,
-    "score": 5
-  },
-  {
     "username": "liuxiaopai-ai",
     "githubId": "73659136",
     "issues": 0,
@@ -5952,23 +5952,6 @@
   {
     "username": "tom-engineering",
     "githubId": "1993509",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 1,
-      "all": 1
-    },
-    "helpful_issues": 0,
-    "comments": 0,
-    "helpful_comments": 0,
-    "reactions": 0,
-    "score": 5
-  },
-  {
-    "username": "tomaioo",
-    "githubId": "203048277",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
@@ -9267,6 +9250,23 @@
   {
     "username": "kpab",
     "githubId": "91237200",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 0
+  },
+  {
+    "username": "LubuSeb",
+    "githubId": "187313664",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
