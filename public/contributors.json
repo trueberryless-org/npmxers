@@ -113,7 +113,7 @@
       "all": 34
     },
     "helpful_issues": 31,
-    "comments": 253,
+    "comments": 254,
     "helpful_comments": 2,
     "reactions": 114,
     "score": 444
@@ -198,7 +198,7 @@
       "all": 11
     },
     "helpful_issues": 8,
-    "comments": 390,
+    "comments": 391,
     "helpful_comments": 5,
     "reactions": 159,
     "score": 308
@@ -510,6 +510,23 @@
     "score": 108
   },
   {
+    "username": "mootari",
+    "githubId": "322014",
+    "issues": 23,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 1,
+      "feat": 0,
+      "fix": 1,
+      "all": 2
+    },
+    "helpful_issues": 9,
+    "comments": 65,
+    "helpful_comments": 1,
+    "reactions": 52,
+    "score": 98
+  },
+  {
     "username": "jhroemer",
     "githubId": "26376491",
     "issues": 3,
@@ -559,23 +576,6 @@
     "helpful_comments": 0,
     "reactions": 4,
     "score": 94
-  },
-  {
-    "username": "mootari",
-    "githubId": "322014",
-    "issues": 23,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 1,
-      "feat": 0,
-      "fix": 0,
-      "all": 1
-    },
-    "helpful_issues": 9,
-    "comments": 63,
-    "helpful_comments": 1,
-    "reactions": 52,
-    "score": 92
   },
   {
     "username": "bluwy",
@@ -801,7 +801,7 @@
   {
     "username": "lorypelli",
     "githubId": "87276663",
-    "issues": 18,
+    "issues": 19,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 1,
@@ -813,7 +813,7 @@
     "comments": 18,
     "helpful_comments": 0,
     "reactions": 5,
-    "score": 61
+    "score": 62
   },
   {
     "username": "jellydeck",
@@ -6341,6 +6341,23 @@
     "score": 4
   },
   {
+    "username": "ghost",
+    "githubId": "10137",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 1,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 1,
+    "score": 4
+  },
+  {
     "username": "gxjansen",
     "githubId": "487722",
     "issues": 0,
@@ -6542,23 +6559,6 @@
     "comments": 0,
     "helpful_comments": 0,
     "reactions": 0,
-    "score": 4
-  },
-  {
-    "username": "makkalay",
-    "githubId": "248462860",
-    "issues": 1,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 1,
-    "comments": 0,
-    "helpful_comments": 0,
-    "reactions": 1,
     "score": 4
   },
   {
