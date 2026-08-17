@@ -181,10 +181,10 @@
       "all": 38
     },
     "helpful_issues": 10,
-    "comments": 136,
+    "comments": 138,
     "helpful_comments": 3,
     "reactions": 160,
-    "score": 349
+    "score": 350
   },
   {
     "username": "ghostdevv",
@@ -521,7 +521,7 @@
       "all": 2
     },
     "helpful_issues": 9,
-    "comments": 71,
+    "comments": 72,
     "helpful_comments": 1,
     "reactions": 52,
     "score": 102
@@ -3621,6 +3621,23 @@
     "score": 9
   },
   {
+    "username": "luo2430",
+    "githubId": "127001012",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 1,
+      "all": 1
+    },
+    "helpful_issues": 0,
+    "comments": 7,
+    "helpful_comments": 0,
+    "reactions": 3,
+    "score": 9
+  },
+  {
     "username": "mihkeleidast",
     "githubId": "1892091",
     "issues": 0,
@@ -3890,23 +3907,6 @@
     "comments": 1,
     "helpful_comments": 0,
     "reactions": 1,
-    "score": 8
-  },
-  {
-    "username": "luo2430",
-    "githubId": "127001012",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 1,
-      "all": 1
-    },
-    "helpful_issues": 0,
-    "comments": 6,
-    "helpful_comments": 0,
-    "reactions": 3,
     "score": 8
   },
   {
