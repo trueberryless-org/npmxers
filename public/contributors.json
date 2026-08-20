@@ -5,16 +5,16 @@
     "issues": 46,
     "merged_pull_requests": {
       "docs": 0,
-      "chore": 21,
+      "chore": 22,
       "feat": 31,
       "fix": 56,
-      "all": 108
+      "all": 109
     },
     "helpful_issues": 37,
     "comments": 247,
     "helpful_comments": 4,
-    "reactions": 248,
-    "score": 873
+    "reactions": 249,
+    "score": 876
   },
   {
     "username": "danielroe",
@@ -107,16 +107,16 @@
     "issues": 43,
     "merged_pull_requests": {
       "docs": 0,
-      "chore": 9,
+      "chore": 10,
       "feat": 7,
       "fix": 18,
-      "all": 34
+      "all": 35
     },
-    "helpful_issues": 31,
+    "helpful_issues": 32,
     "comments": 259,
     "helpful_comments": 2,
-    "reactions": 115,
-    "score": 447
+    "reactions": 117,
+    "score": 453
   },
   {
     "username": "MatteoGabriele",
@@ -183,7 +183,7 @@
     "helpful_issues": 10,
     "comments": 138,
     "helpful_comments": 3,
-    "reactions": 160,
+    "reactions": 161,
     "score": 350
   },
   {
@@ -215,7 +215,7 @@
       "all": 49
     },
     "helpful_issues": 8,
-    "comments": 106,
+    "comments": 107,
     "helpful_comments": 7,
     "reactions": 149,
     "score": 302
@@ -578,6 +578,23 @@
     "score": 94
   },
   {
+    "username": "ShroXd",
+    "githubId": "48713853",
+    "issues": 2,
+    "merged_pull_requests": {
+      "docs": 1,
+      "chore": 1,
+      "feat": 5,
+      "fix": 5,
+      "all": 12
+    },
+    "helpful_issues": 0,
+    "comments": 31,
+    "helpful_comments": 1,
+    "reactions": 52,
+    "score": 92
+  },
+  {
     "username": "bluwy",
     "githubId": "34116392",
     "issues": 2,
@@ -595,23 +612,6 @@
     "score": 91
   },
   {
-    "username": "ShroXd",
-    "githubId": "48713853",
-    "issues": 2,
-    "merged_pull_requests": {
-      "docs": 1,
-      "chore": 1,
-      "feat": 5,
-      "fix": 5,
-      "all": 12
-    },
-    "helpful_issues": 0,
-    "comments": 30,
-    "helpful_comments": 1,
-    "reactions": 51,
-    "score": 91
-  },
-  {
     "username": "nicolo-ribaudo",
     "githubId": "7000710",
     "issues": 19,
@@ -623,9 +623,9 @@
       "all": 2
     },
     "helpful_issues": 13,
-    "comments": 22,
+    "comments": 23,
     "helpful_comments": 1,
-    "reactions": 25,
+    "reactions": 26,
     "score": 86
   },
   {
@@ -2087,7 +2087,7 @@
     "helpful_issues": 0,
     "comments": 2,
     "helpful_comments": 0,
-    "reactions": 1,
+    "reactions": 2,
     "score": 19
   },
   {
