@@ -591,7 +591,7 @@
     "helpful_issues": 0,
     "comments": 31,
     "helpful_comments": 1,
-    "reactions": 52,
+    "reactions": 53,
     "score": 92
   },
   {
@@ -1322,7 +1322,7 @@
     "helpful_issues": 1,
     "comments": 3,
     "helpful_comments": 0,
-    "reactions": 41,
+    "reactions": 42,
     "score": 31
   },
   {
@@ -8769,6 +8769,23 @@
     "comments": 2,
     "helpful_comments": 0,
     "reactions": 1,
+    "score": 1
+  },
+  {
+    "username": "rexxars",
+    "githubId": "48200",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 0,
     "score": 1
   },
   {
