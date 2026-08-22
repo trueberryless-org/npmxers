@@ -107,16 +107,16 @@
     "issues": 43,
     "merged_pull_requests": {
       "docs": 0,
-      "chore": 10,
+      "chore": 11,
       "feat": 7,
       "fix": 18,
-      "all": 35
+      "all": 36
     },
     "helpful_issues": 32,
     "comments": 259,
     "helpful_comments": 2,
     "reactions": 117,
-    "score": 453
+    "score": 456
   },
   {
     "username": "MatteoGabriele",
@@ -217,8 +217,8 @@
     "helpful_issues": 8,
     "comments": 107,
     "helpful_comments": 7,
-    "reactions": 149,
-    "score": 302
+    "reactions": 150,
+    "score": 303
   },
   {
     "username": "RYGRIT",
@@ -521,10 +521,10 @@
       "all": 3
     },
     "helpful_issues": 9,
-    "comments": 73,
+    "comments": 74,
     "helpful_comments": 1,
-    "reactions": 54,
-    "score": 106
+    "reactions": 55,
+    "score": 107
   },
   {
     "username": "jhroemer",
@@ -778,7 +778,7 @@
     "helpful_issues": 3,
     "comments": 10,
     "helpful_comments": 2,
-    "reactions": 26,
+    "reactions": 27,
     "score": 66
   },
   {
@@ -1320,7 +1320,7 @@
       "all": 3
     },
     "helpful_issues": 1,
-    "comments": 3,
+    "comments": 4,
     "helpful_comments": 0,
     "reactions": 42,
     "score": 31
@@ -6998,7 +6998,7 @@
       "all": 0
     },
     "helpful_issues": 0,
-    "comments": 5,
+    "comments": 6,
     "helpful_comments": 0,
     "reactions": 1,
     "score": 3
@@ -9250,6 +9250,23 @@
   {
     "username": "janewas",
     "githubId": "279255164",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 0
+  },
+  {
+    "username": "JonasBa",
+    "githubId": "9317857",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
