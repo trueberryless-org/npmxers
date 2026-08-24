@@ -113,10 +113,10 @@
       "all": 36
     },
     "helpful_issues": 32,
-    "comments": 259,
+    "comments": 260,
     "helpful_comments": 2,
     "reactions": 117,
-    "score": 456
+    "score": 457
   },
   {
     "username": "MatteoGabriele",
@@ -1241,6 +1241,23 @@
     "score": 34
   },
   {
+    "username": "antfu",
+    "githubId": "11247099",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 3,
+      "fix": 0,
+      "all": 3
+    },
+    "helpful_issues": 1,
+    "comments": 6,
+    "helpful_comments": 0,
+    "reactions": 46,
+    "score": 33
+  },
+  {
     "username": "JReinhold",
     "githubId": "5678122",
     "issues": 4,
@@ -1256,23 +1273,6 @@
     "helpful_comments": 1,
     "reactions": 12,
     "score": 33
-  },
-  {
-    "username": "antfu",
-    "githubId": "11247099",
-    "issues": 1,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 3,
-      "fix": 0,
-      "all": 3
-    },
-    "helpful_issues": 1,
-    "comments": 5,
-    "helpful_comments": 0,
-    "reactions": 43,
-    "score": 32
   },
   {
     "username": "harlan-zw",
@@ -9131,6 +9131,23 @@
   {
     "username": "Ai-chan-0411",
     "githubId": "275152799",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 0
+  },
+  {
+    "username": "aniruddhaadak80",
+    "githubId": "127435065",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
