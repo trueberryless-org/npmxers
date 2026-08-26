@@ -62,7 +62,7 @@
       "all": 86
     },
     "helpful_issues": 17,
-    "comments": 42,
+    "comments": 43,
     "helpful_comments": 2,
     "reactions": 45,
     "score": 548
@@ -113,9 +113,9 @@
       "all": 36
     },
     "helpful_issues": 32,
-    "comments": 260,
+    "comments": 261,
     "helpful_comments": 2,
-    "reactions": 117,
+    "reactions": 118,
     "score": 457
   },
   {
@@ -982,7 +982,7 @@
     "helpful_issues": 1,
     "comments": 6,
     "helpful_comments": 0,
-    "reactions": 49,
+    "reactions": 50,
     "score": 40
   },
   {
@@ -1547,6 +1547,23 @@
     "score": 27
   },
   {
+    "username": "fengmk2",
+    "githubId": "156269",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 7,
+      "feat": 0,
+      "fix": 0,
+      "all": 7
+    },
+    "helpful_issues": 0,
+    "comments": 9,
+    "helpful_comments": 0,
+    "reactions": 9,
+    "score": 26
+  },
+  {
     "username": "NullVoxPopuli",
     "githubId": "199018",
     "issues": 0,
@@ -1681,23 +1698,6 @@
     "helpful_comments": 0,
     "reactions": 8,
     "score": 24
-  },
-  {
-    "username": "fengmk2",
-    "githubId": "156269",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 6,
-      "feat": 0,
-      "fix": 0,
-      "all": 6
-    },
-    "helpful_issues": 0,
-    "comments": 8,
-    "helpful_comments": 0,
-    "reactions": 9,
-    "score": 23
   },
   {
     "username": "tomvoet",
@@ -2340,7 +2340,7 @@
       "all": 2
     },
     "helpful_issues": 0,
-    "comments": 9,
+    "comments": 10,
     "helpful_comments": 0,
     "reactions": 3,
     "score": 15
@@ -4063,6 +4063,23 @@
     "score": 7
   },
   {
+    "username": "coder-tejas",
+    "githubId": "160053269",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 1,
+      "all": 1
+    },
+    "helpful_issues": 0,
+    "comments": 3,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 7
+  },
+  {
     "username": "danieljcafonso",
     "githubId": "35337607",
     "issues": 0,
@@ -4689,23 +4706,6 @@
     "comments": 1,
     "helpful_comments": 0,
     "reactions": 3,
-    "score": 6
-  },
-  {
-    "username": "coder-tejas",
-    "githubId": "160053269",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 1,
-      "all": 1
-    },
-    "helpful_issues": 0,
-    "comments": 2,
-    "helpful_comments": 0,
-    "reactions": 0,
     "score": 6
   },
   {
@@ -6086,7 +6086,7 @@
     "score": 5
   },
   {
-    "username": "XiaoPengMei",
+    "username": "warwickmei",
     "githubId": "16916029",
     "issues": 0,
     "merged_pull_requests": {
