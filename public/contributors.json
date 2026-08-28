@@ -28,10 +28,10 @@
       "all": 97
     },
     "helpful_issues": 22,
-    "comments": 403,
+    "comments": 404,
     "helpful_comments": 7,
-    "reactions": 417,
-    "score": 835
+    "reactions": 418,
+    "score": 836
   },
   {
     "username": "alexdln",
@@ -96,10 +96,10 @@
       "all": 76
     },
     "helpful_issues": 3,
-    "comments": 87,
+    "comments": 94,
     "helpful_comments": 1,
     "reactions": 43,
-    "score": 522
+    "score": 525
   },
   {
     "username": "gameroman",
@@ -6817,6 +6817,23 @@
     "score": 4
   },
   {
+    "username": "tomayac",
+    "githubId": "145676",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 8,
+    "helpful_comments": 0,
+    "reactions": 2,
+    "score": 4
+  },
+  {
     "username": "ubugeeei",
     "githubId": "71201308",
     "issues": 1,
@@ -7103,23 +7120,6 @@
     "comments": 1,
     "helpful_comments": 1,
     "reactions": 6,
-    "score": 3
-  },
-  {
-    "username": "tomayac",
-    "githubId": "145676",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 6,
-    "helpful_comments": 0,
-    "reactions": 2,
     "score": 3
   },
   {
@@ -8162,6 +8162,23 @@
   {
     "username": "Gonzo17",
     "githubId": "5129082",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 1
+  },
+  {
+    "username": "Goondrious",
+    "githubId": "17012062",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
