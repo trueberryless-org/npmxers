@@ -56,16 +56,16 @@
     "issues": 17,
     "merged_pull_requests": {
       "docs": 0,
-      "chore": 30,
+      "chore": 33,
       "feat": 40,
       "fix": 16,
-      "all": 86
+      "all": 89
     },
     "helpful_issues": 17,
     "comments": 43,
     "helpful_comments": 2,
     "reactions": 45,
-    "score": 548
+    "score": 557
   },
   {
     "username": "serhalp",
@@ -96,10 +96,10 @@
       "all": 76
     },
     "helpful_issues": 3,
-    "comments": 94,
+    "comments": 96,
     "helpful_comments": 1,
     "reactions": 43,
-    "score": 525
+    "score": 526
   },
   {
     "username": "gameroman",
@@ -113,10 +113,10 @@
       "all": 36
     },
     "helpful_issues": 32,
-    "comments": 261,
+    "comments": 263,
     "helpful_comments": 2,
-    "reactions": 118,
-    "score": 457
+    "reactions": 119,
+    "score": 458
   },
   {
     "username": "MatteoGabriele",
@@ -512,7 +512,7 @@
   {
     "username": "mootari",
     "githubId": "322014",
-    "issues": 24,
+    "issues": 25,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 2,
@@ -521,10 +521,10 @@
       "all": 3
     },
     "helpful_issues": 9,
-    "comments": 74,
+    "comments": 75,
     "helpful_comments": 1,
-    "reactions": 55,
-    "score": 107
+    "reactions": 56,
+    "score": 108
   },
   {
     "username": "jhroemer",
@@ -6830,7 +6830,7 @@
     "helpful_issues": 0,
     "comments": 8,
     "helpful_comments": 0,
-    "reactions": 2,
+    "reactions": 0,
     "score": 4
   },
   {
@@ -7018,6 +7018,23 @@
     "comments": 6,
     "helpful_comments": 0,
     "reactions": 1,
+    "score": 3
+  },
+  {
+    "username": "Mopsgamer",
+    "githubId": "79159094",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 3,
+    "helpful_comments": 0,
+    "reactions": 5,
     "score": 3
   },
   {
@@ -7375,23 +7392,6 @@
     "comments": 3,
     "helpful_comments": 0,
     "reactions": 3,
-    "score": 2
-  },
-  {
-    "username": "Mopsgamer",
-    "githubId": "79159094",
-    "issues": 1,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 2,
-    "helpful_comments": 0,
-    "reactions": 4,
     "score": 2
   },
   {
@@ -8701,6 +8701,23 @@
     "comments": 2,
     "helpful_comments": 0,
     "reactions": 1,
+    "score": 1
+  },
+  {
+    "username": "outslept",
+    "githubId": "135520429",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
     "score": 1
   },
   {
