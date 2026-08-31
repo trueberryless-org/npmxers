@@ -106,17 +106,17 @@
     "githubId": "121314722",
     "issues": 43,
     "merged_pull_requests": {
-      "docs": 0,
-      "chore": 11,
+      "docs": 1,
+      "chore": 12,
       "feat": 7,
       "fix": 18,
-      "all": 36
+      "all": 38
     },
     "helpful_issues": 32,
     "comments": 263,
     "helpful_comments": 2,
     "reactions": 119,
-    "score": 458
+    "score": 465
   },
   {
     "username": "MatteoGabriele",
@@ -5746,6 +5746,23 @@
     "score": 5
   },
   {
+    "username": "Mopsgamer",
+    "githubId": "79159094",
+    "issues": 2,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 4,
+    "helpful_comments": 0,
+    "reactions": 5,
+    "score": 5
+  },
+  {
     "username": "Morgimiel",
     "githubId": "175825749",
     "issues": 1,
@@ -6644,23 +6661,6 @@
     "comments": 0,
     "helpful_comments": 0,
     "reactions": 2,
-    "score": 4
-  },
-  {
-    "username": "Mopsgamer",
-    "githubId": "79159094",
-    "issues": 1,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 4,
-    "helpful_comments": 0,
-    "reactions": 5,
     "score": 4
   },
   {
@@ -7578,7 +7578,7 @@
     "helpful_issues": 0,
     "comments": 3,
     "helpful_comments": 0,
-    "reactions": 6,
+    "reactions": 7,
     "score": 2
   },
   {
@@ -9335,6 +9335,23 @@
   {
     "username": "JonasBa",
     "githubId": "9317857",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 0
+  },
+  {
+    "username": "joshuaclash08",
+    "githubId": "61219866",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
