@@ -1275,6 +1275,23 @@
     "score": 33
   },
   {
+    "username": "nikelborm",
+    "githubId": "29357907",
+    "issues": 7,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 1,
+      "fix": 1,
+      "all": 2
+    },
+    "helpful_issues": 3,
+    "comments": 9,
+    "helpful_comments": 0,
+    "reactions": 8,
+    "score": 33
+  },
+  {
     "username": "harlan-zw",
     "githubId": "5326365",
     "issues": 0,
@@ -1289,23 +1306,6 @@
     "comments": 14,
     "helpful_comments": 1,
     "reactions": 16,
-    "score": 32
-  },
-  {
-    "username": "nikelborm",
-    "githubId": "29357907",
-    "issues": 6,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 1,
-      "fix": 1,
-      "all": 2
-    },
-    "helpful_issues": 3,
-    "comments": 9,
-    "helpful_comments": 0,
-    "reactions": 8,
     "score": 32
   },
   {
@@ -4074,7 +4074,7 @@
       "all": 1
     },
     "helpful_issues": 0,
-    "comments": 4,
+    "comments": 3,
     "helpful_comments": 0,
     "reactions": 0,
     "score": 7
@@ -4958,7 +4958,7 @@
       "all": 0
     },
     "helpful_issues": 0,
-    "comments": 6,
+    "comments": 7,
     "helpful_comments": 0,
     "reactions": 5,
     "score": 6
@@ -6864,7 +6864,7 @@
     "helpful_issues": 0,
     "comments": 8,
     "helpful_comments": 0,
-    "reactions": 0,
+    "reactions": 1,
     "score": 4
   },
   {
@@ -8347,6 +8347,23 @@
     "score": 1
   },
   {
+    "username": "JesseTG",
+    "githubId": "1175189",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 1
+  },
+  {
     "username": "jfernsio",
     "githubId": "150249488",
     "issues": 0,
@@ -8701,6 +8718,23 @@
     "comments": 2,
     "helpful_comments": 0,
     "reactions": 1,
+    "score": 1
+  },
+  {
+    "username": "NumerDev",
+    "githubId": "65687304",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
     "score": 1
   },
   {
