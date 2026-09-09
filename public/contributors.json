@@ -476,6 +476,23 @@
     "score": 121
   },
   {
+    "username": "Flo0806",
+    "githubId": "10813063",
+    "issues": 3,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 1,
+      "feat": 7,
+      "fix": 6,
+      "all": 14
+    },
+    "helpful_issues": 3,
+    "comments": 33,
+    "helpful_comments": 0,
+    "reactions": 27,
+    "score": 113
+  },
+  {
     "username": "fatfingers23",
     "githubId": "20476157",
     "issues": 9,
@@ -491,23 +508,6 @@
     "helpful_comments": 0,
     "reactions": 41,
     "score": 109
-  },
-  {
-    "username": "Flo0806",
-    "githubId": "10813063",
-    "issues": 3,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 1,
-      "feat": 7,
-      "fix": 5,
-      "all": 13
-    },
-    "helpful_issues": 3,
-    "comments": 33,
-    "helpful_comments": 0,
-    "reactions": 26,
-    "score": 108
   },
   {
     "username": "mootari",
@@ -1462,6 +1462,23 @@
     "score": 28
   },
   {
+    "username": "fengmk2",
+    "githubId": "156269",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 7,
+      "feat": 0,
+      "fix": 0,
+      "all": 7
+    },
+    "helpful_issues": 0,
+    "comments": 11,
+    "helpful_comments": 0,
+    "reactions": 13,
+    "score": 28
+  },
+  {
     "username": "juninhokaponne",
     "githubId": "49099875",
     "issues": 2,
@@ -1477,23 +1494,6 @@
     "helpful_comments": 0,
     "reactions": 4,
     "score": 28
-  },
-  {
-    "username": "fengmk2",
-    "githubId": "156269",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 7,
-      "feat": 0,
-      "fix": 0,
-      "all": 7
-    },
-    "helpful_issues": 0,
-    "comments": 9,
-    "helpful_comments": 0,
-    "reactions": 10,
-    "score": 27
   },
   {
     "username": "gusa4grr",
@@ -5525,6 +5525,23 @@
     "score": 5
   },
   {
+    "username": "ericcornelissen",
+    "githubId": "3742559",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 1,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 1,
+    "score": 5
+  },
+  {
     "username": "gunnnnii",
     "githubId": "35393849",
     "issues": 1,
@@ -7290,23 +7307,6 @@
     "comments": 1,
     "helpful_comments": 0,
     "reactions": 0,
-    "score": 2
-  },
-  {
-    "username": "ericcornelissen",
-    "githubId": "3742559",
-    "issues": 1,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 1,
-    "helpful_comments": 0,
-    "reactions": 1,
     "score": 2
   },
   {
