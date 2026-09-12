@@ -5,16 +5,16 @@
     "issues": 47,
     "merged_pull_requests": {
       "docs": 0,
-      "chore": 23,
+      "chore": 24,
       "feat": 31,
       "fix": 57,
-      "all": 111
+      "all": 112
     },
     "helpful_issues": 38,
     "comments": 251,
     "helpful_comments": 4,
     "reactions": 250,
-    "score": 891
+    "score": 894
   },
   {
     "username": "danielroe",
@@ -109,14 +109,14 @@
       "docs": 1,
       "chore": 12,
       "feat": 7,
-      "fix": 18,
-      "all": 38
+      "fix": 19,
+      "all": 39
     },
     "helpful_issues": 32,
-    "comments": 264,
+    "comments": 265,
     "helpful_comments": 2,
-    "reactions": 120,
-    "score": 466
+    "reactions": 121,
+    "score": 472
   },
   {
     "username": "MatteoGabriele",
@@ -622,11 +622,11 @@
       "fix": 1,
       "all": 2
     },
-    "helpful_issues": 13,
+    "helpful_issues": 14,
     "comments": 23,
     "helpful_comments": 1,
     "reactions": 28,
-    "score": 87
+    "score": 90
   },
   {
     "username": "garthdw",
@@ -1343,6 +1343,23 @@
     "score": 31
   },
   {
+    "username": "fengmk2",
+    "githubId": "156269",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 8,
+      "feat": 0,
+      "fix": 0,
+      "all": 8
+    },
+    "helpful_issues": 0,
+    "comments": 11,
+    "helpful_comments": 0,
+    "reactions": 13,
+    "score": 31
+  },
+  {
     "username": "zeucapua",
     "githubId": "20603494",
     "issues": 5,
@@ -1459,23 +1476,6 @@
     "comments": 9,
     "helpful_comments": 0,
     "reactions": 5,
-    "score": 28
-  },
-  {
-    "username": "fengmk2",
-    "githubId": "156269",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 7,
-      "feat": 0,
-      "fix": 0,
-      "all": 7
-    },
-    "helpful_issues": 0,
-    "comments": 11,
-    "helpful_comments": 0,
-    "reactions": 13,
     "score": 28
   },
   {
