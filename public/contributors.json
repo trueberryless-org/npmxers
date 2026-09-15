@@ -2,19 +2,19 @@
   {
     "username": "graphieros",
     "githubId": "55991794",
-    "issues": 47,
+    "issues": 48,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 24,
       "feat": 31,
-      "fix": 57,
-      "all": 112
+      "fix": 58,
+      "all": 113
     },
-    "helpful_issues": 38,
+    "helpful_issues": 39,
     "comments": 251,
     "helpful_comments": 4,
     "reactions": 250,
-    "score": 894
+    "score": 903
   },
   {
     "username": "danielroe",
@@ -214,11 +214,11 @@
       "fix": 5,
       "all": 49
     },
-    "helpful_issues": 8,
+    "helpful_issues": 9,
     "comments": 107,
     "helpful_comments": 7,
-    "reactions": 150,
-    "score": 303
+    "reactions": 151,
+    "score": 306
   },
   {
     "username": "RYGRIT",
@@ -244,15 +244,15 @@
     "merged_pull_requests": {
       "docs": 5,
       "chore": 8,
-      "feat": 18,
+      "feat": 19,
       "fix": 13,
-      "all": 44
+      "all": 45
     },
     "helpful_issues": 1,
-    "comments": 54,
+    "comments": 55,
     "helpful_comments": 1,
-    "reactions": 36,
-    "score": 272
+    "reactions": 37,
+    "score": 279
   },
   {
     "username": "iiio2",
@@ -421,7 +421,7 @@
     "helpful_issues": 2,
     "comments": 89,
     "helpful_comments": 6,
-    "reactions": 95,
+    "reactions": 96,
     "score": 139
   },
   {
@@ -2612,7 +2612,7 @@
       "all": 0
     },
     "helpful_issues": 3,
-    "comments": 1,
+    "comments": 2,
     "helpful_comments": 0,
     "reactions": 2,
     "score": 13
@@ -3961,6 +3961,23 @@
     "score": 8
   },
   {
+    "username": "Mopsgamer",
+    "githubId": "79159094",
+    "issues": 2,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 11,
+    "helpful_comments": 0,
+    "reactions": 5,
+    "score": 8
+  },
+  {
     "username": "onebyte8bits",
     "githubId": "58406705",
     "issues": 0,
@@ -4519,23 +4536,6 @@
     "comments": 0,
     "helpful_comments": 0,
     "reactions": 0,
-    "score": 7
-  },
-  {
-    "username": "Mopsgamer",
-    "githubId": "79159094",
-    "issues": 2,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 8,
-    "helpful_comments": 0,
-    "reactions": 5,
     "score": 7
   },
   {
@@ -5503,6 +5503,23 @@
     },
     "helpful_issues": 0,
     "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 5
+  },
+  {
+    "username": "dantman",
+    "githubId": "53399",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 1,
+    "comments": 1,
     "helpful_comments": 0,
     "reactions": 0,
     "score": 5
@@ -7293,23 +7310,6 @@
     "score": 2
   },
   {
-    "username": "dantman",
-    "githubId": "53399",
-    "issues": 1,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 1,
-    "helpful_comments": 0,
-    "reactions": 0,
-    "score": 2
-  },
-  {
     "username": "Delapouite",
     "githubId": "39315",
     "issues": 1,
@@ -8602,6 +8602,23 @@
     "score": 1
   },
   {
+    "username": "lory69060",
+    "githubId": "291636128",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 1
+  },
+  {
     "username": "luxass",
     "githubId": "40726067",
     "issues": 0,
@@ -9329,7 +9346,7 @@
     "helpful_issues": 0,
     "comments": 0,
     "helpful_comments": 0,
-    "reactions": 0,
+    "reactions": 1,
     "score": 0
   },
   {
