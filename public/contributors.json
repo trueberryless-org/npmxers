@@ -2034,7 +2034,7 @@
       "all": 1
     },
     "helpful_issues": 0,
-    "comments": 20,
+    "comments": 21,
     "helpful_comments": 0,
     "reactions": 6,
     "score": 19
@@ -2414,6 +2414,23 @@
     "score": 15
   },
   {
+    "username": "BANOnotIT",
+    "githubId": "11363215",
+    "issues": 3,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 3,
+    "comments": 4,
+    "helpful_comments": 0,
+    "reactions": 2,
+    "score": 14
+  },
+  {
     "username": "IdacIp",
     "githubId": "150231945",
     "issues": 0,
@@ -2596,23 +2613,6 @@
     },
     "helpful_issues": 1,
     "comments": 1,
-    "helpful_comments": 0,
-    "reactions": 2,
-    "score": 13
-  },
-  {
-    "username": "BANOnotIT",
-    "githubId": "11363215",
-    "issues": 3,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 3,
-    "comments": 2,
     "helpful_comments": 0,
     "reactions": 2,
     "score": 13
@@ -3417,6 +3417,23 @@
     "score": 10
   },
   {
+    "username": "Mopsgamer",
+    "githubId": "79159094",
+    "issues": 2,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 15,
+    "helpful_comments": 0,
+    "reactions": 5,
+    "score": 10
+  },
+  {
     "username": "mvanhorn",
     "githubId": "455140",
     "issues": 0,
@@ -3958,23 +3975,6 @@
     "comments": 1,
     "helpful_comments": 0,
     "reactions": 1,
-    "score": 8
-  },
-  {
-    "username": "Mopsgamer",
-    "githubId": "79159094",
-    "issues": 2,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 11,
-    "helpful_comments": 0,
-    "reactions": 5,
     "score": 8
   },
   {
