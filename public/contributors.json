@@ -40,15 +40,15 @@
     "merged_pull_requests": {
       "docs": 0,
       "chore": 18,
-      "feat": 33,
+      "feat": 34,
       "fix": 49,
-      "all": 100
+      "all": 101
     },
     "helpful_issues": 33,
-    "comments": 235,
+    "comments": 236,
     "helpful_comments": 8,
     "reactions": 221,
-    "score": 827
+    "score": 834
   },
   {
     "username": "9romise",
@@ -421,7 +421,7 @@
     "helpful_issues": 2,
     "comments": 90,
     "helpful_comments": 6,
-    "reactions": 96,
+    "reactions": 97,
     "score": 140
   },
   {
@@ -801,7 +801,7 @@
   {
     "username": "lorypelli",
     "githubId": "87276663",
-    "issues": 19,
+    "issues": 20,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 1,
@@ -813,7 +813,7 @@
     "comments": 18,
     "helpful_comments": 0,
     "reactions": 6,
-    "score": 62
+    "score": 63
   },
   {
     "username": "jellydeck",
