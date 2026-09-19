@@ -24,14 +24,14 @@
       "docs": 2,
       "chore": 31,
       "feat": 29,
-      "fix": 35,
-      "all": 97
+      "fix": 36,
+      "all": 98
     },
     "helpful_issues": 22,
     "comments": 404,
     "helpful_comments": 7,
     "reactions": 419,
-    "score": 836
+    "score": 841
   },
   {
     "username": "alexdln",
@@ -410,7 +410,7 @@
   {
     "username": "WilcoSp",
     "githubId": "17604138",
-    "issues": 2,
+    "issues": 3,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 1,
@@ -422,7 +422,7 @@
     "comments": 90,
     "helpful_comments": 6,
     "reactions": 97,
-    "score": 140
+    "score": 141
   },
   {
     "username": "jycouet",
@@ -544,6 +544,23 @@
     "score": 98
   },
   {
+    "username": "nicolo-ribaudo",
+    "githubId": "7000710",
+    "issues": 21,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 1,
+      "fix": 1,
+      "all": 2
+    },
+    "helpful_issues": 15,
+    "comments": 24,
+    "helpful_comments": 1,
+    "reactions": 28,
+    "score": 95
+  },
+  {
     "username": "nitodeco",
     "githubId": "98180436",
     "issues": 7,
@@ -610,23 +627,6 @@
     "helpful_comments": 0,
     "reactions": 17,
     "score": 91
-  },
-  {
-    "username": "nicolo-ribaudo",
-    "githubId": "7000710",
-    "issues": 20,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 1,
-      "fix": 1,
-      "all": 2
-    },
-    "helpful_issues": 14,
-    "comments": 23,
-    "helpful_comments": 1,
-    "reactions": 28,
-    "score": 90
   },
   {
     "username": "garthdw",
