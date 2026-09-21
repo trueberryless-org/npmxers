@@ -2,7 +2,7 @@
   {
     "username": "graphieros",
     "githubId": "55991794",
-    "issues": 48,
+    "issues": 49,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 24,
@@ -14,7 +14,7 @@
     "comments": 251,
     "helpful_comments": 4,
     "reactions": 250,
-    "score": 903
+    "score": 904
   },
   {
     "username": "danielroe",
@@ -45,10 +45,10 @@
       "all": 101
     },
     "helpful_issues": 33,
-    "comments": 236,
+    "comments": 237,
     "helpful_comments": 8,
     "reactions": 222,
-    "score": 834
+    "score": 835
   },
   {
     "username": "9romise",
@@ -215,7 +215,7 @@
       "all": 49
     },
     "helpful_issues": 9,
-    "comments": 107,
+    "comments": 108,
     "helpful_comments": 7,
     "reactions": 151,
     "score": 306
@@ -997,10 +997,10 @@
       "all": 3
     },
     "helpful_issues": 2,
-    "comments": 19,
+    "comments": 20,
     "helpful_comments": 1,
     "reactions": 16,
-    "score": 39
+    "score": 40
   },
   {
     "username": "vladh",
@@ -2363,6 +2363,23 @@
     "score": 15
   },
   {
+    "username": "luc122c",
+    "githubId": "7257092",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 1,
+      "feat": 1,
+      "fix": 1,
+      "all": 3
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 2,
+    "score": 15
+  },
+  {
     "username": "matthewp",
     "githubId": "361671",
     "issues": 1,
@@ -2870,23 +2887,6 @@
     "comments": 0,
     "helpful_comments": 0,
     "reactions": 1,
-    "score": 12
-  },
-  {
-    "username": "luc122c",
-    "githubId": "7257092",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 1,
-      "fix": 1,
-      "all": 2
-    },
-    "helpful_issues": 0,
-    "comments": 0,
-    "helpful_comments": 0,
-    "reactions": 2,
     "score": 12
   },
   {
@@ -4828,6 +4828,23 @@
     "score": 6
   },
   {
+    "username": "dantman",
+    "githubId": "53399",
+    "issues": 2,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 1,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 6
+  },
+  {
     "username": "dkazmer",
     "githubId": "5092492",
     "issues": 1,
@@ -5537,23 +5554,6 @@
     },
     "helpful_issues": 0,
     "comments": 0,
-    "helpful_comments": 0,
-    "reactions": 0,
-    "score": 5
-  },
-  {
-    "username": "dantman",
-    "githubId": "53399",
-    "issues": 1,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 1,
-    "comments": 1,
     "helpful_comments": 0,
     "reactions": 0,
     "score": 5
@@ -7051,7 +7051,7 @@
     "helpful_issues": 0,
     "comments": 1,
     "helpful_comments": 1,
-    "reactions": 3,
+    "reactions": 4,
     "score": 3
   },
   {
