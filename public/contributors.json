@@ -2,7 +2,7 @@
   {
     "username": "graphieros",
     "githubId": "55991794",
-    "issues": 50,
+    "issues": 51,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 25,
@@ -14,7 +14,7 @@
     "comments": 251,
     "helpful_comments": 4,
     "reactions": 250,
-    "score": 921
+    "score": 922
   },
   {
     "username": "danielroe",
@@ -123,17 +123,17 @@
     "githubId": "5337152",
     "issues": 16,
     "merged_pull_requests": {
-      "docs": 0,
+      "docs": 1,
       "chore": 13,
       "feat": 18,
       "fix": 18,
-      "all": 49
+      "all": 50
     },
     "helpful_issues": 16,
     "comments": 182,
     "helpful_comments": 6,
     "reactions": 150,
-    "score": 437
+    "score": 441
   },
   {
     "username": "wojtekmaj",
