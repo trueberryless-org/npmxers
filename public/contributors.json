@@ -7446,6 +7446,23 @@
     "score": 2
   },
   {
+    "username": "KTrain5169",
+    "githubId": "69028025",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 1,
+    "helpful_comments": 0,
+    "reactions": 1,
+    "score": 2
+  },
+  {
     "username": "loky-lp",
     "githubId": "71527839",
     "issues": 1,
@@ -8599,23 +8616,6 @@
     "comments": 2,
     "helpful_comments": 0,
     "reactions": 3,
-    "score": 1
-  },
-  {
-    "username": "KTrain5169",
-    "githubId": "69028025",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 1,
-    "helpful_comments": 0,
-    "reactions": 1,
     "score": 1
   },
   {
