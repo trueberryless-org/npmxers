@@ -1377,6 +1377,23 @@
     "score": 31
   },
   {
+    "username": "2u841r",
+    "githubId": "77893877",
+    "issues": 5,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 1,
+      "fix": 1,
+      "all": 2
+    },
+    "helpful_issues": 3,
+    "comments": 6,
+    "helpful_comments": 0,
+    "reactions": 5,
+    "score": 30
+  },
+  {
     "username": "typed-sigterm",
     "githubId": "145281501",
     "issues": 6,
@@ -1392,23 +1409,6 @@
     "helpful_comments": 3,
     "reactions": 29,
     "score": 30
-  },
-  {
-    "username": "2u841r",
-    "githubId": "77893877",
-    "issues": 4,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 1,
-      "fix": 1,
-      "all": 2
-    },
-    "helpful_issues": 3,
-    "comments": 6,
-    "helpful_comments": 0,
-    "reactions": 5,
-    "score": 29
   },
   {
     "username": "BobbieGoede",
