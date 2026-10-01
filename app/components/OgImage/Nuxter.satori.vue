@@ -8,37 +8,21 @@ const { format } = Intl.NumberFormat('en-GB', {})
 </script>
 
 <template>
-  <div
-    class="flex flex-row justify-between w-full h-full p-[38px] bg-slate-900"
-  >
-    <div
-      class="flex flex-col w-1/3 items-center py-10 justify-between text-white"
-    >
+  <div class="flex h-full w-full flex-row justify-between bg-slate-900 p-[38px]">
+    <div class="flex w-1/3 flex-col items-center justify-between py-10 text-white">
       <div class="flex flex-col items-center">
         <img
           :src="`https://github.com/${contributor.username}.png?size=200`"
           class="flex size-32 rounded-full"
           width="200"
           height="200"
-        >
-        <div class="text-3xl pt-[18px]">
+        />
+        <div class="pt-[18px] text-3xl">
           {{ contributor.username }}
         </div>
         <div class="pt-12">
-          <svg
-            width="119"
-            height="2"
-            viewBox="0 0 119 2"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <line
-              x1="0.5"
-              y1="0.882812"
-              x2="118.5"
-              y2="0.882812"
-              stroke="url(#paint0_linear_186_15197)"
-            />
+          <svg width="119" height="2" viewBox="0 0 119 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <line x1="0.5" y1="0.882812" x2="118.5" y2="0.882812" stroke="url(#paint0_linear_186_15197)" />
             <defs>
               <linearGradient
                 id="paint0_linear_186_15197"
@@ -48,31 +32,15 @@ const { format } = Intl.NumberFormat('en-GB', {})
                 y2="1.00033"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop
-                  stop-color="#CBD5E1"
-                  stop-opacity="0"
-                />
-                <stop
-                  offset="0.494792"
-                  stop-color="#CBD5E1"
-                />
-                <stop
-                  offset="0.979167"
-                  stop-color="#CBD5E1"
-                  stop-opacity="0"
-                />
+                <stop stop-color="#CBD5E1" stop-opacity="0" />
+                <stop offset="0.494792" stop-color="#CBD5E1" />
+                <stop offset="0.979167" stop-color="#CBD5E1" stop-opacity="0" />
               </linearGradient>
             </defs>
           </svg>
         </div>
-        <div class="flex flex-row text-white items-center pt-12">
-          <svg
-            width="41"
-            height="41"
-            viewBox="0 0 41 41"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+        <div class="flex flex-row items-center pt-12 text-white">
+          <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M37.3227 14.4875V14.6091C37.3227 16.0425 37.3227 16.7609 36.9777 17.3475C36.6327 17.9342 36.0044 18.2825 34.751 18.9809L33.4293 19.7142C34.3393 16.6342 34.6443 13.3241 34.756 10.4941L34.7727 10.1257L34.776 10.0391C35.861 10.4157 36.471 10.6974 36.851 11.2241C37.3227 11.8791 37.3227 12.7491 37.3227 14.4875ZM3.98877 14.4875V14.6091C3.98877 16.0425 3.98877 16.7609 4.33378 17.3475C4.67878 17.9342 5.30713 18.2825 6.56048 18.9809L7.88384 19.7142C6.97216 16.6342 6.66715 13.3241 6.55548 10.4941L6.53882 10.1257L6.53715 10.0391C5.45046 10.4157 4.84045 10.6974 4.46044 11.2241C3.98877 11.8791 3.98877 12.7508 3.98877 14.4875Z"
               fill="#F8FAFC"
@@ -84,28 +52,17 @@ const { format } = Intl.NumberFormat('en-GB', {})
               fill="#F8FAFC"
             />
           </svg>
-          <div class="font-medium text-4xl pl-2 pt-1">
+          <div class="pt-1 pl-2 text-4xl font-medium">
             {{ format(contributor.score) }}
           </div>
         </div>
-        <div
-          class="flex flex-row text-neutral-400 items-center pt-3 font-medium text-3xl"
-        >
+        <div class="flex flex-row items-center pt-3 text-3xl font-medium text-neutral-400">
           #{{ format(contributor.rank) }}
         </div>
       </div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        class="mt-8"
-        width="158"
-        viewBox="0 0 602 170"
-        style="--accent: #b0a9ff"
-      >
+      <svg xmlns="http://www.w3.org/2000/svg" class="mt-8" width="158" viewBox="0 0 602 170" style="--accent: #b0a9ff">
         <g transform="translate(0 14.602)">
-          <path
-            d="m0.93476 97.205h24.081v23.693h-24.081z"
-            fill="#fafafa"
-          />
+          <path d="m0.93476 97.205h24.081v23.693h-24.081z" fill="#fafafa" />
           <path
             d="m176.66 17.97h14.954l0.3884 18.449q4.0783-10.293 12.817-15.536 8.9334-5.2435 20.003-5.2435 17.09 0 26.412 11.07 9.3218 10.875 9.3218 27.965v66.223h-16.313v-61.562q0-29.325-22.916-29.325-12.429 0-20.391 7.7681-7.9623 7.7681-7.9623 21.557v61.562h-16.313z"
             fill="#fafafa"
@@ -129,17 +86,15 @@ const { format } = Intl.NumberFormat('en-GB', {})
         </g>
       </svg>
     </div>
-    <div class="flex flex-col w-[31.5%] text-white justify-between">
+    <div class="flex w-[31.5%] flex-col justify-between text-white">
       <div class="h-[48%]">
         <IssuesCard :issues="contributor.issues" />
       </div>
       <div class="h-[48%]">
-        <PullRequestCard
-          :pull-requests="contributor.merged_pull_requests.all"
-        />
+        <PullRequestCard :pull-requests="contributor.merged_pull_requests.all" />
       </div>
     </div>
-    <div class="flex flex-col w-[31.5%] text-white justify-between">
+    <div class="flex w-[31.5%] flex-col justify-between text-white">
       <div class="h-[48%]">
         <CommentsCard :comments="contributor.comments" />
       </div>
@@ -153,7 +108,7 @@ const { format } = Intl.NumberFormat('en-GB', {})
 <style scoped lang="postcss">
 /* Left unmodified layout boundaries, just stripped localhost qualifiers */
 .card-border::before {
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -169,56 +124,36 @@ const { format } = Intl.NumberFormat('en-GB', {})
 }
 
 .profile-card {
-  background-image: url("/card-gradient-bg.svg");
+  background-image: url('/card-gradient-bg.svg');
   background-repeat: no-repeat;
   background-size: 300%;
 }
 
 .card {
-  @apply rounded-xl border bg-no-repeat bg-top p-6 text-center flex flex-col items-center justify-end;
+  @apply flex flex-col items-center justify-end rounded-xl border bg-top bg-no-repeat p-6 text-center;
 }
 
 .issues-card {
   background-image:
-    linear-gradient(
-      180deg,
-      rgba(0, 220, 130, 0.4) 0%,
-      rgba(0, 220, 130, 0) 100%,
-      rgba(2, 4, 32, 0.5)
-    ),
-    url("/issues-card-bg.svg");
+    linear-gradient(180deg, rgba(0, 220, 130, 0.4) 0%, rgba(0, 220, 130, 0) 100%, rgba(2, 4, 32, 0.5)),
+    url('/issues-card-bg.svg');
 }
 
 .comments-card {
   background-image:
-    linear-gradient(
-      180deg,
-      rgba(64, 187, 255, 0.4) 0%,
-      rgba(64, 187, 255, 0) 100%,
-      rgba(2, 4, 32, 0.5)
-    ),
-    url("/comments-card-bg.svg");
+    linear-gradient(180deg, rgba(64, 187, 255, 0.4) 0%, rgba(64, 187, 255, 0) 100%, rgba(2, 4, 32, 0.5)),
+    url('/comments-card-bg.svg');
 }
 
 .pull-requests-card {
   background-image:
-    linear-gradient(
-      180deg,
-      rgba(139, 92, 246, 0.4) 0%,
-      rgba(139, 92, 246, 0) 100%,
-      rgba(2, 4, 32, 0.5)
-    ),
-    url("/pull-requests-card-bg.svg");
+    linear-gradient(180deg, rgba(139, 92, 246, 0.4) 0%, rgba(139, 92, 246, 0) 100%, rgba(2, 4, 32, 0.5)),
+    url('/pull-requests-card-bg.svg');
 }
 
 .reactions-card {
   background-image:
-    linear-gradient(
-      180deg,
-      rgba(247, 209, 76, 0.4) 0%,
-      rgba(247, 209, 76, 0) 100%,
-      rgba(2, 4, 32, 0.5)
-    ),
-    url("/reactions-card-bg.webp");
+    linear-gradient(180deg, rgba(247, 209, 76, 0.4) 0%, rgba(247, 209, 76, 0) 100%, rgba(2, 4, 32, 0.5)),
+    url('/reactions-card-bg.webp');
 }
 </style>

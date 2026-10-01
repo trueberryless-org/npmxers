@@ -44,19 +44,15 @@ useSeoMeta({
 function backToHome() {
   if (router.options.history.state.back === '/') {
     router.back()
-  }
-  else {
+  } else {
     navigateTo('/')
   }
 }
 </script>
 
 <template>
-  <div
-    v-if="contributor"
-    class="pb-[60px] lg:min-h-[calc(100dvh-9rem)] flex flex-col items-center justify-center"
-  >
-    <div class="flex items-start justify-start w-full h-full pb-8  mb-8">
+  <div v-if="contributor" class="flex flex-col items-center justify-center pb-[60px] lg:min-h-[calc(100dvh-9rem)]">
+    <div class="mb-8 flex h-full w-full items-start justify-start pb-8">
       <UButton
         to="/"
         variant="link"
@@ -67,14 +63,20 @@ function backToHome() {
         @click.prevent="backToHome()"
       />
     </div>
-    <div class="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 w-full gap-10.5">
-      <div class="relative z-40 md:col-span-2 h-full md:h-100 lg:h-full lg:col-span-1 lg:row-span-2 bg-neutral-800 p-px rounded-xl before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-full before:rounded-[10px] before:bg-[linear-gradient(to_bottom_right,#8d72f1,#1e293b)] before:-z-10 hover:before:bg-[linear-gradient(to_bottom_right,#8d72f1,#8d72f1)]">
-        <div class="bg-[url('/card-gradient-bg.svg')] bg-no-repeat bg-size-[300%] flex flex-col md:flex-row lg:flex-col items-center justify-between h-full z-40 bg-neutral-950! rounded-[9.5px] relative p-[18px] sm:p-11 hover:border-primary">
-          <div class="flex flex-col md:flex-row lg:flex-col gap-y-2 pb-2 md:w-full items-center text-center justify-between">
+    <div class="grid-col-1 grid w-full gap-10.5 md:grid-cols-2 lg:grid-cols-3">
+      <div
+        class="relative z-40 h-full rounded-xl bg-neutral-800 p-px before:absolute before:top-0 before:left-0 before:-z-10 before:h-full before:w-full before:rounded-[10px] before:bg-[linear-gradient(to_bottom_right,#8d72f1,#1e293b)] before:content-[''] hover:before:bg-[linear-gradient(to_bottom_right,#8d72f1,#8d72f1)] md:col-span-2 md:h-100 lg:col-span-1 lg:row-span-2 lg:h-full"
+      >
+        <div
+          class="hover:border-primary relative z-40 flex h-full flex-col items-center justify-between rounded-[9.5px] bg-neutral-950! bg-[url('/card-gradient-bg.svg')] bg-size-[300%] bg-no-repeat p-[18px] sm:p-11 md:flex-row lg:flex-col"
+        >
+          <div
+            class="flex flex-col items-center justify-between gap-y-2 pb-2 text-center md:w-full md:flex-row lg:flex-col"
+          >
             <NuxtImg
               :src="`https://github.com/${contributor.username}.png`"
               :alt="contributor.username"
-              class="rounded-full w-40"
+              class="w-40 rounded-full"
               :style="{ 'view-transition-name': `npmxer-${contributor.username}` }"
             />
             <div class="flex flex-col items-center gap-4">
@@ -96,15 +98,12 @@ function backToHome() {
 
                 <div class="flex flex-col gap-y-2">
                   <div class="flex items-center justify-center gap-1">
-                    <span class="text-2xl text-center md:text-left lg:text-center md:ml-4 lg:ml-0 text-neutral-400"><span class="text-2xl font-medium">#</span>{{ format(contributor.rank) }}</span>
+                    <span class="text-center text-2xl text-neutral-400 md:ml-4 md:text-left lg:ml-0 lg:text-center"
+                      ><span class="text-2xl font-medium">#</span>{{ format(contributor.rank) }}</span
+                    >
                   </div>
                   <div class="flex items-center justify-center gap-1">
-                    <svg
-                      class="h-6"
-                      viewBox="0 0 41 41"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
+                    <svg class="h-6" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path
                         d="M37.3227 14.4875V14.6091C37.3227 16.0425 37.3227 16.7609 36.9777 17.3475C36.6327 17.9342 36.0044 18.2825 34.751 18.9809L33.4293 19.7142C34.3393 16.6342 34.6443 13.3241 34.756 10.4941L34.7727 10.1257L34.776 10.0391C35.861 10.4157 36.471 10.6974 36.851 11.2241C37.3227 11.8791 37.3227 12.7491 37.3227 14.4875ZM3.98877 14.4875V14.6091C3.98877 16.0425 3.98877 16.7609 4.33378 17.3475C4.67878 17.9342 5.30713 18.2825 6.56048 18.9809L7.88384 19.7142C6.97216 16.6342 6.66715 13.3241 6.55548 10.4941L6.53882 10.1257L6.53715 10.0391C5.45046 10.4157 4.84045 10.6974 4.46044 11.2241C3.98877 11.8791 3.98877 12.7508 3.98877 14.4875Z"
                         fill="#F8FAFC"
@@ -116,22 +115,25 @@ function backToHome() {
                         fill="#F8FAFC"
                       />
                     </svg>
-                    <span class="text-xl text-center md:text-left lg:text-center md:ml-4 lg:ml-0"><span class="text-2xl font-medium">{{ format(contributor.score) }}</span> {{ contributor?.score === 1 ? 'pt' : 'pts' }}</span>
+                    <span class="text-center text-xl md:ml-4 md:text-left lg:ml-0 lg:text-center"
+                      ><span class="text-2xl font-medium">{{ format(contributor.score) }}</span>
+                      {{ contributor?.score === 1 ? 'pt' : 'pts' }}</span
+                    >
                     <ContributorDetailedScore :contributor="contributor" />
                   </div>
                 </div>
               </div>
 
-              <span class="block mb-10 md:mb-0 h-px w-[92px] bg-neutral-800" />
+              <span class="mb-10 block h-px w-[92px] bg-neutral-800 md:mb-0" />
 
-              <div class="flex flex-col items-center justify-center text-center gap-y-3">
+              <div class="flex flex-col items-center justify-center gap-y-3 text-center">
                 <span class="text-lg">Share your npmxer profile ✨</span>
 
                 <UButton
                   :color="pageCopied ? 'primary' : 'neutral'"
                   :variant="pageCopied ? 'subtle' : 'outline'"
                   size="xl"
-                  class="max-w-[250px] m:max-w-[270px] xl:max-w-[300px]"
+                  class="m:max-w-[270px] max-w-[250px] xl:max-w-[300px]"
                   :label="contributorUrlDisplay"
                   trailing
                   :icon="pageCopied ? 'i-ph-check' : 'i-ph-copy'"
@@ -139,33 +141,27 @@ function backToHome() {
                 />
                 <USeparator label="OR" />
 
-                <UModal
-                  :ui="{ content: 'sm:max-w-2xl' }"
-                  title="Add your npmxer card on GitHub"
-                >
+                <UModal :ui="{ content: 'sm:max-w-2xl' }" title="Add your npmxer card on GitHub">
                   <UButton
                     color="neutral"
                     variant="outline"
                     size="xl"
-                    class="max-w-[250px] m:max-w-[270px] xl:max-w-[300px]"
+                    class="m:max-w-[270px] max-w-[250px] xl:max-w-[300px]"
                     label="Add your npmxer card on GitHub"
                     icon="i-simple-icons-github"
                     trailing
                   />
                   <template #body>
                     <div class="flex flex-col gap-y-4">
-                      <div class="aspect-[1.91/1] flex items-center justify-center">
-                        <UIcon
-                          name="i-ph-arrow-clockwise-bold"
-                          class="h-10 w-10 shrink-0 animate-spin"
-                        />
+                      <div class="flex aspect-[1.91/1] items-center justify-center">
+                        <UIcon name="i-ph-arrow-clockwise-bold" class="h-10 w-10 shrink-0 animate-spin" />
                         <img
                           :src="ogImageUrl"
                           :alt="contributor?.username"
                           height="630"
                           width="1200"
                           class="absolute"
-                        >
+                        />
                       </div>
                       <UButton
                         label="Get your npmxer card"
@@ -175,15 +171,19 @@ function backToHome() {
                         class="self-center"
                         trailing
                         :icon="cardCopied ? 'i-ph-check' : 'i-ph-copy'"
-                        @click="copyCard(`[![${contributor?.username} npmxer profile](${ogImageUrl})](${contributorUrl})`)"
+                        @click="
+                          copyCard(`[![${contributor?.username} npmxer profile](${ogImageUrl})](${contributorUrl})`)
+                        "
                       />
                       <p class="text-center">
-                        Copy your npmxer card and paste it on your <ULink
+                        Copy your npmxer card and paste it on your
+                        <ULink
                           to="https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme"
                           target="_blank"
-                        >profile README</ULink>.
+                          >profile README</ULink
+                        >.
                       </p>
-                      <p class="text-neutral-400 text-center">
+                      <p class="text-center text-neutral-400">
                         Paste it into your GitHub profile README to showcase your contributions.
                       </p>
                     </div>
@@ -194,19 +194,27 @@ function backToHome() {
           </div>
         </div>
       </div>
-      <div class="border-green-400 rounded-xl border h-[285px] bg-no-repeat bg-top p-6 text-center flex flex-col items-center justify-end bg-[linear-gradient(180deg,_rgba(0,_220,_130,_0.40)_0%,_rgba(0,_220,_130,_0.00)_100%,_rgba(2,_4,_32,_0.50)),url('/issues-card-bg.svg')]">
+      <div
+        class="flex h-[285px] flex-col items-center justify-end rounded-xl border border-green-400 bg-[linear-gradient(180deg,_rgba(0,_220,_130,_0.40)_0%,_rgba(0,_220,_130,_0.00)_100%,_rgba(2,_4,_32,_0.50)),url('/issues-card-bg.svg')] bg-top bg-no-repeat p-6 text-center"
+      >
         <span class="text-5xl font-medium">{{ format(contributor.issues) }}</span>
         <span class="text-2xl">{{ contributor?.issues === 1 ? 'Issue' : 'Issues' }}</span>
       </div>
-      <div class="border-blue-400 rounded-xl border h-[285px] bg-no-repeat bg-top p-6 text-center flex flex-col items-center justify-end bg-[linear-gradient(180deg,_rgba(64,_187,_255,_0.40)_0%,_rgba(64,_187,_255,_0.00)_100%,_rgba(2,_4,_32,_0.50)),url('/comments-card-bg.svg')]">
+      <div
+        class="flex h-[285px] flex-col items-center justify-end rounded-xl border border-blue-400 bg-[linear-gradient(180deg,_rgba(64,_187,_255,_0.40)_0%,_rgba(64,_187,_255,_0.00)_100%,_rgba(2,_4,_32,_0.50)),url('/comments-card-bg.svg')] bg-top bg-no-repeat p-6 text-center"
+      >
         <span class="text-5xl font-medium">{{ format(contributor.comments) }}</span>
         <span class="text-2xl">{{ contributor?.comments === 1 ? 'Comment' : 'Comments' }}</span>
       </div>
-      <div class="border-violet-400 rounded-xl border h-[285px] bg-no-repeat bg-top p-6 text-center flex flex-col items-center justify-end bg-[linear-gradient(180deg,_rgba(139,_92,_246,_0.40)_0%,_rgba(139,_92,_246,_0.00)_100%,_rgba(2,_4,_32,_0.50)),url('/pull-requests-card-bg.svg')]">
+      <div
+        class="flex h-[285px] flex-col items-center justify-end rounded-xl border border-violet-400 bg-[linear-gradient(180deg,_rgba(139,_92,_246,_0.40)_0%,_rgba(139,_92,_246,_0.00)_100%,_rgba(2,_4,_32,_0.50)),url('/pull-requests-card-bg.svg')] bg-top bg-no-repeat p-6 text-center"
+      >
         <span class="text-5xl font-medium">{{ format(contributor.merged_pull_requests.all) }}</span>
         <span class="text-2xl">Merged {{ contributor.merged_pull_requests.all === 1 ? 'PR' : 'PRs' }}</span>
       </div>
-      <div class="border-yellow-400 rounded-xl border h-[285px] bg-no-repeat bg-top p-6 text-center flex flex-col items-center justify-end bg-[linear-gradient(180deg,_rgba(247,_209,_76,_0.40)_0%,_rgba(247,_209,_76,_0.00)_100%,_rgba(2,_4,_32,_0.50)),url('/reactions-card-bg.webp')]">
+      <div
+        class="flex h-[285px] flex-col items-center justify-end rounded-xl border border-yellow-400 bg-[linear-gradient(180deg,_rgba(247,_209,_76,_0.40)_0%,_rgba(247,_209,_76,_0.00)_100%,_rgba(2,_4,_32,_0.50)),url('/reactions-card-bg.webp')] bg-top bg-no-repeat p-6 text-center"
+      >
         <span class="text-5xl font-medium">{{ format(contributor.reactions) }}</span>
         <span class="text-2xl">{{ contributor?.reactions === 1 ? 'Reaction' : 'Reactions' }}</span>
       </div>
