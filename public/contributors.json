@@ -30,7 +30,7 @@
     "helpful_issues": 22,
     "comments": 404,
     "helpful_comments": 7,
-    "reactions": 419,
+    "reactions": 421,
     "score": 841
   },
   {
@@ -166,7 +166,7 @@
     "helpful_issues": 10,
     "comments": 141,
     "helpful_comments": 3,
-    "reactions": 163,
+    "reactions": 164,
     "score": 358
   },
   {
@@ -504,10 +504,10 @@
       "all": 3
     },
     "helpful_issues": 10,
-    "comments": 75,
+    "comments": 76,
     "helpful_comments": 1,
     "reactions": 56,
-    "score": 111
+    "score": 112
   },
   {
     "username": "fatfingers23",
@@ -2223,7 +2223,7 @@
     "helpful_issues": 0,
     "comments": 9,
     "helpful_comments": 0,
-    "reactions": 4,
+    "reactions": 5,
     "score": 17
   },
   {
@@ -9590,6 +9590,23 @@
   {
     "username": "Kemalau",
     "githubId": "188348039",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 0
+  },
+  {
+    "username": "KirbyBT",
+    "githubId": "141064436",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
