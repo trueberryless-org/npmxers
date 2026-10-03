@@ -1,10 +1,10 @@
-@import "tailwindcss";
-@import "@nuxt/ui";
+@import 'tailwindcss';
+@import '@nuxt/ui';
 
 @theme {
   --font-sans:
-    "DM Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    'DM Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
 
   --color-slate-50: #f8fafc;
   --color-slate-100: #f1f5f9;
@@ -52,7 +52,7 @@ html {
   }
 
   button:not(:disabled),
-  [role="button"]:not(:disabled) {
+  [role='button']:not(:disabled) {
     cursor: pointer;
   }
 }

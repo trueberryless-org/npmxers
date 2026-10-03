@@ -1,14 +1,13 @@
 <template>
-  <div class="bg-linear-to-b from-slate-800/50 to-slate-900/50 border border-slate-800 rounded-lg ">
-    <div class="bg-[url('/join-gradient-bg-sm.svg')] lg:bg-[url('/join-gradient-bg.svg')] bg-no-repeat bg-bottom flex flex-col gap-y-3 text-slate-100 items-center justify-center  py-[72px] px-4 sm:px-6 md:px-16 lg:px-[172px]">
-      <h1 class="text-4xl font-bold text-center">
-        Ready to <span class="text-indigo-400">Join us</span>?
-      </h1>
-      <p class="text-slate-300 text-base sm:text-lg lg:text-xl text-center">
-        Become an npmxer and help shape the future of npmx.
-        Contribute, collaborate and join our community today!
+  <div class="rounded-lg border border-slate-800 bg-linear-to-b from-slate-800/50 to-slate-900/50">
+    <div
+      class="flex flex-col items-center justify-center gap-y-3 bg-[url('/join-gradient-bg-sm.svg')] bg-bottom bg-no-repeat px-4 py-[72px] text-slate-100 sm:px-6 md:px-16 lg:bg-[url('/join-gradient-bg.svg')] lg:px-[172px]"
+    >
+      <h2 class="text-center text-4xl font-bold">Ready to <span class="text-indigo-400">Join us</span>?</h2>
+      <p class="text-center text-base text-slate-300 sm:text-lg lg:text-xl">
+        Become an npmxer and help shape the future of npmx. Contribute, collaborate and join our community today!
       </p>
-      <div class="pt-8 flex flex-col gap-y-4 sm:flex-row gap-x-4 items-center">
+      <div class="flex flex-col items-center gap-x-4 gap-y-4 pt-8 sm:flex-row">
         <UButton
           to="https://github.com/npmx-dev/npmx.dev"
           icon="i-simple-icons-github"

@@ -1,0 +1,31 @@
+# See https://github.com/actions/labeler/tree/v5
+
+'🚨 action':
+  - changed-files:
+      - any-glob-to-any-file: .github/workflows/**
+
+'📝 changeset':
+  - changed-files:
+      - any-glob-to-any-file: '**/.changeset/**.{md,mdx}'
+
+'🚧 config':
+  - changed-files:
+      - any-glob-to-any-file: '**/*config*.{js,ts,jsx,tsx,mjs,mts,json,yml,yaml,toml,cjs,cts}'
+
+'✒️ documentation':
+  - changed-files:
+      - any-glob-to-any-file: ['**/docs/**', '**/README.md']
+
+'🌏 i18n':
+  - changed-files:
+      - any-glob-to-any-file:
+          - '**/docs/!(en)/'
+          - '**/docs/[a-z][a-z]-[a-z][a-z]/**'
+
+'📦 package':
+  - changed-files:
+      - any-glob-to-any-file: ['**/packages/**', 'package.json']
+
+'🏯 styles':
+  - changed-files:
+      - any-glob-to-any-file: '**/*.{css,scss,sass,less,styl}'

@@ -1,24 +1,15 @@
-export default defineEventHandler(async (event) => {
+export default defineEventHandler((event) => {
   const username = getRouterParam(event, 'username')
+
   if (!username) {
-    throw createError({
-      statusCode: 400,
-      statusMessage: 'Username missing',
-    })
+    throw createError({ statusCode: 400, statusMessage: 'Username missing' })
   }
 
-  const contributors = await fetchContributors(event)
+  const contributor = findContributor(contributors, username)
 
-  const index = contributors?.findIndex(contributor => contributor.username.toLowerCase() === username.toLocaleLowerCase()) ?? -1
-  if (index === -1) {
-    throw createError({
-      statusCode: 404,
-      statusMessage: 'Contributor not found',
-    })
+  if (!contributor) {
+    throw createError({ statusCode: 404, statusMessage: 'Contributor not found' })
   }
 
-  return {
-    ...contributors![index]!,
-    rank: index + 1,
-  }
+  return contributor
 })

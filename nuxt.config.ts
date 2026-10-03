@@ -1,15 +1,7 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 export default defineNuxtConfig({
-  modules: [
-    '@nuxt/eslint',
-    '@nuxt/ui',
-    '@vueuse/nuxt',
-    'nuxt-og-image',
-    '@nuxt/image',
-    '@nuxt/test-utils/module',
-    '@netlify/nuxt',
-  ],
+  modules: ['@nuxt/ui', '@vueuse/nuxt', 'nuxt-og-image', '@nuxt/image', '@nuxt/test-utils/module', '@netlify/nuxt'],
 
   devtools: { enabled: true },
 
@@ -23,7 +15,7 @@ export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
 
   site: {
-    url: 'https://npmxers.trueberryless.org',
+    url: 'https://npmxers.netlify.app',
   },
 
   experimental: {
@@ -31,18 +23,6 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2025-07-31',
-
-  nitro: {
-    storage: {
-      cache: {
-        driver: 'http',
-        base: process.env.CACHE_API_URL,
-        headers: {
-          Authorization: `Bearer ${process.env.CACHE_API_TOKEN}`,
-        },
-      },
-    },
-  },
 
   vite: {
     optimizeDeps: {
@@ -55,13 +35,7 @@ export default defineNuxtConfig({
       include: ['../test'],
     },
     nodeTsConfig: {
-      include: ['../vitest.config.ts'],
-    },
-  },
-
-  eslint: {
-    config: {
-      stylistic: true,
+      include: ['../vitest.config.ts', '../playwright.config.ts'],
     },
   },
 
