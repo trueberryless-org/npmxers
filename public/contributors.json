@@ -5,16 +5,16 @@
     "issues": 51,
     "merged_pull_requests": {
       "docs": 0,
-      "chore": 25,
+      "chore": 26,
       "feat": 32,
       "fix": 59,
-      "all": 116
+      "all": 117
     },
     "helpful_issues": 42,
     "comments": 254,
     "helpful_comments": 4,
     "reactions": 250,
-    "score": 931
+    "score": 934
   },
   {
     "username": "danielroe",
@@ -96,10 +96,10 @@
       "all": 76
     },
     "helpful_issues": 3,
-    "comments": 96,
+    "comments": 97,
     "helpful_comments": 1,
     "reactions": 43,
-    "score": 526
+    "score": 527
   },
   {
     "username": "gameroman",
@@ -385,10 +385,10 @@
       "all": 12
     },
     "helpful_issues": 2,
-    "comments": 91,
+    "comments": 92,
     "helpful_comments": 6,
     "reactions": 97,
-    "score": 148
+    "score": 149
   },
   {
     "username": "cylewaitforit",
@@ -1258,6 +1258,23 @@
     "score": 34
   },
   {
+    "username": "Tobbe",
+    "githubId": "30793",
+    "issues": 3,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 1,
+      "fix": 0,
+      "all": 1
+    },
+    "helpful_issues": 1,
+    "comments": 39,
+    "helpful_comments": 0,
+    "reactions": 13,
+    "score": 34
+  },
+  {
     "username": "JReinhold",
     "githubId": "5678122",
     "issues": 4,
@@ -1306,23 +1323,6 @@
     "comments": 14,
     "helpful_comments": 1,
     "reactions": 16,
-    "score": 32
-  },
-  {
-    "username": "Tobbe",
-    "githubId": "30793",
-    "issues": 2,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 1,
-      "fix": 0,
-      "all": 1
-    },
-    "helpful_issues": 1,
-    "comments": 38,
-    "helpful_comments": 0,
-    "reactions": 12,
     "score": 32
   },
   {
@@ -4692,6 +4692,23 @@
     "score": 7
   },
   {
+    "username": "tomayac",
+    "githubId": "145676",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 13,
+    "helpful_comments": 0,
+    "reactions": 3,
+    "score": 7
+  },
+  {
     "username": "ulrichstark",
     "githubId": "8657779",
     "issues": 0,
@@ -5267,23 +5284,6 @@
     "comments": 4,
     "helpful_comments": 1,
     "reactions": 6,
-    "score": 6
-  },
-  {
-    "username": "tomayac",
-    "githubId": "145676",
-    "issues": 0,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 0,
-      "fix": 0,
-      "all": 0
-    },
-    "helpful_issues": 0,
-    "comments": 11,
-    "helpful_comments": 0,
-    "reactions": 1,
     "score": 6
   },
   {
