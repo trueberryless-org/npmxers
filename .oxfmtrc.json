@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/oxfmt/configuration_schema.json",
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 120,
+  "sortTailwindcss": true,
+  "ignorePatterns": [
+    "**/.astro/**",
+    "**/.nuxt/**",
+    "**/.output/**",
+    "**/dist/**",
+    "coverage/**",
+    "playwright-report/**",
+    "test-results/**",
+    "pnpm-lock.yaml"
+  ]
+}
