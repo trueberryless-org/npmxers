@@ -13,7 +13,7 @@
     "helpful_issues": 42,
     "comments": 254,
     "helpful_comments": 4,
-    "reactions": 250,
+    "reactions": 251,
     "score": 934
   },
   {
@@ -115,7 +115,7 @@
     "helpful_issues": 32,
     "comments": 266,
     "helpful_comments": 2,
-    "reactions": 122,
+    "reactions": 123,
     "score": 472
   },
   {
@@ -217,7 +217,7 @@
     "helpful_issues": 9,
     "comments": 109,
     "helpful_comments": 7,
-    "reactions": 152,
+    "reactions": 153,
     "score": 307
   },
   {
@@ -357,6 +357,23 @@
     "score": 150
   },
   {
+    "username": "WilcoSp",
+    "githubId": "17604138",
+    "issues": 3,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 1,
+      "feat": 7,
+      "fix": 4,
+      "all": 12
+    },
+    "helpful_issues": 2,
+    "comments": 94,
+    "helpful_comments": 6,
+    "reactions": 97,
+    "score": 150
+  },
+  {
     "username": "essenmitsosse",
     "githubId": "4087618",
     "issues": 10,
@@ -371,23 +388,6 @@
     "comments": 79,
     "helpful_comments": 1,
     "reactions": 40,
-    "score": 149
-  },
-  {
-    "username": "WilcoSp",
-    "githubId": "17604138",
-    "issues": 3,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 1,
-      "feat": 7,
-      "fix": 4,
-      "all": 12
-    },
-    "helpful_issues": 2,
-    "comments": 92,
-    "helpful_comments": 6,
-    "reactions": 97,
     "score": 149
   },
   {
@@ -2427,7 +2427,7 @@
     "helpful_issues": 2,
     "comments": 3,
     "helpful_comments": 0,
-    "reactions": 21,
+    "reactions": 22,
     "score": 15
   },
   {
