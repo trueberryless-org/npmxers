@@ -368,7 +368,7 @@
       "all": 12
     },
     "helpful_issues": 2,
-    "comments": 94,
+    "comments": 95,
     "helpful_comments": 6,
     "reactions": 97,
     "score": 150
@@ -8888,6 +8888,23 @@
     "comments": 0,
     "helpful_comments": 0,
     "reactions": 0,
+    "score": 1
+  },
+  {
+    "username": "owgreen-dev",
+    "githubId": "198742078",
+    "issues": 1,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 1,
     "score": 1
   },
   {
