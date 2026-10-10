@@ -340,6 +340,23 @@
     "score": 161
   },
   {
+    "username": "WilcoSp",
+    "githubId": "17604138",
+    "issues": 3,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 1,
+      "feat": 7,
+      "fix": 4,
+      "all": 12
+    },
+    "helpful_issues": 2,
+    "comments": 96,
+    "helpful_comments": 6,
+    "reactions": 98,
+    "score": 151
+  },
+  {
     "username": "knowler",
     "githubId": "6908001",
     "issues": 17,
@@ -354,23 +371,6 @@
     "comments": 66,
     "helpful_comments": 0,
     "reactions": 70,
-    "score": 150
-  },
-  {
-    "username": "WilcoSp",
-    "githubId": "17604138",
-    "issues": 3,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 1,
-      "feat": 7,
-      "fix": 4,
-      "all": 12
-    },
-    "helpful_issues": 2,
-    "comments": 95,
-    "helpful_comments": 6,
-    "reactions": 97,
     "score": 150
   },
   {
@@ -982,7 +982,7 @@
     "helpful_issues": 1,
     "comments": 6,
     "helpful_comments": 0,
-    "reactions": 50,
+    "reactions": 49,
     "score": 40
   },
   {
@@ -6015,6 +6015,23 @@
     "comments": 2,
     "helpful_comments": 0,
     "reactions": 4,
+    "score": 5
+  },
+  {
+    "username": "rcgiri-physics",
+    "githubId": "255358035",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 1,
+      "all": 1
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
     "score": 5
   },
   {
