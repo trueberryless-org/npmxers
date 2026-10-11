@@ -1,0 +1,15 @@
+{
+  "$schema": "https://unpkg.com/knip@6/schema.json",
+  "entry": ["scripts/*.ts", "test/**/*.{test,spec}.ts"],
+  "ignoreDependencies": [
+    "@iconify-json/heroicons",
+    "@iconify-json/lucide",
+    "@iconify-json/ph",
+    "@iconify-json/simple-icons",
+    "@nuxt/devtools",
+    "@nuxt/fonts",
+    "@vueuse/core",
+    "vitest-environment-nuxt",
+    "vue-tsc"
+  ]
+}

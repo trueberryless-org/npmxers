@@ -18,22 +18,13 @@ const links: DropdownMenuItem[] = [
 </script>
 
 <template>
-  <div
-    class="h-20 w-full sticky top-0 bg-neutral-950/70 backdrop-blur-md z-50 flex flex-col justify-center"
-  >
-    <UContainer class="flex justify-between items-center w-full">
+  <div class="sticky top-0 z-50 flex h-20 w-full flex-col justify-center bg-neutral-950">
+    <UContainer class="flex w-full items-center justify-between">
       <div class="flex items-center">
-        <NuxtLink
-          to="/"
-          aria-label="go to home page"
-          class="flex items-center"
-        >
+        <NuxtLink to="/" aria-label="go to home page" class="flex items-center">
           <TheLogo class="h-6" />
         </NuxtLink>
-        <UDropdownMenu
-          :items="links"
-          size="xl"
-        >
+        <UDropdownMenu :items="links" size="xl">
           <UButton
             variant="ghost"
             color="neutral"
@@ -44,7 +35,7 @@ const links: DropdownMenuItem[] = [
           />
         </UDropdownMenu>
       </div>
-      <div class="flex items-center sm:gap-x-4 text-white font-medium">
+      <div class="flex items-center font-medium text-white sm:gap-x-4">
         <UButton
           class="flex items-center sm:-mr-2"
           to="https://build.npmx.dev"
@@ -54,26 +45,20 @@ const links: DropdownMenuItem[] = [
           size="xl"
           aria-label="join us"
         >
-          <UIcon
-            name="i-simple-icons-discord"
-            class="h-5 w-5"
-          />
+          <UIcon name="i-simple-icons-discord" class="h-5 w-5" />
           <span class="hidden sm:block">Join us</span>
         </UButton>
-        <div class="hidden sm:block h-8 w-px bg-neutral-700 -mr-2 sm:-mr-6" />
+        <div class="-mr-2 hidden h-8 w-px bg-neutral-700 sm:-mr-6 sm:block" />
         <UButton
           to="https://github.com/npmx-dev/npmx.dev"
-          class="flex gap-x-2 items-center"
+          class="flex items-center gap-x-2"
           variant="link"
           color="neutral"
           size="xl"
           target="_blank"
           aria-label="star us"
         >
-          <UIcon
-            name="i-simple-icons-github"
-            class="h-5 w-5 sm:ml-4"
-          />
+          <UIcon name="i-simple-icons-github" class="h-5 w-5 sm:ml-4" />
           <span class="hidden sm:block">Star us</span>
         </UButton>
       </div>

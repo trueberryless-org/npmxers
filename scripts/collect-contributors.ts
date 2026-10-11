@@ -4,11 +4,10 @@ import { fileURLToPath } from 'node:url'
 import { Octokit } from 'octokit'
 import { paginateRest } from '@octokit/plugin-paginate-rest'
 import { retry } from '@octokit/plugin-retry'
+import { computeScore } from '../shared/score'
 
 const REQUIRED_TOKEN_MESSAGE = 'NUXT_GITHUB_TOKEN is required to collect contributor statistics'
-const ORGS = [
-  'npmx-dev',
-] as const
+const ORGS = ['npmx-dev'] as const
 const HELPFUL_REACTIONS_THRESHOLD = 3
 const HELPFUL_COMMENTS_THRESHOLD = 5
 const OUTPUT_FILE = resolve(fileURLToPath(new URL('../public/contributors.json', import.meta.url)))
@@ -67,7 +66,7 @@ const isBotAccount = (login: string | null | undefined) => {
   return login.includes('[bot]') || login.endsWith('-bot')
 }
 
-const upsertContributor = (user: { login: string | null, id: number | null } | null | undefined) => {
+const upsertContributor = (user: { login: string | null; id: number | null } | null | undefined) => {
   if (!user || isBotAccount(user.login)) {
     return null
   }
@@ -92,7 +91,7 @@ const upsertContributor = (user: { login: string | null, id: number | null } | n
 
 const addIssueStats = (
   issue: {
-    user: { login: string | null, id: number | null } | null
+    user: { login: string | null; id: number | null } | null
     number: number
     pull_request?: object
     reactions?: { total_count?: number }
@@ -126,12 +125,10 @@ const addIssueStats = (
   }
 }
 
-const addCommentStats = (
-  comment: {
-    user: { login: string | null, id: number | null } | null
-    reactions?: { total_count?: number }
-  },
-) => {
+const addCommentStats = (comment: {
+  user: { login: string | null; id: number | null } | null
+  reactions?: { total_count?: number }
+}) => {
   const contributor = upsertContributor(comment.user)
   if (!contributor) {
     return
@@ -251,33 +248,9 @@ const collectOrganization = async (org: string) => {
   }
 }
 
-const PR_SCORE_MULTIPLIERS: Record<PullRequestType, number> = {
-  feat: 7,
-  fix: 5,
-  docs: 4,
-  chore: 3,
-}
-
-const computeScore = (stats: ContributorAccumulator) => {
-  const prScore
-    = stats.merged_pull_requests.feat * PR_SCORE_MULTIPLIERS.feat
-      + stats.merged_pull_requests.fix * PR_SCORE_MULTIPLIERS.fix
-      + stats.merged_pull_requests.docs * PR_SCORE_MULTIPLIERS.docs
-      + stats.merged_pull_requests.chore * PR_SCORE_MULTIPLIERS.chore
-
-  const total
-    = prScore
-      + stats.helpful_issues * 3
-      + stats.helpful_comments * 2
-      + stats.issues
-      + stats.comments * 0.5
-      + stats.reactions * 0.1
-  return Math.round(total)
-}
-
 const buildContributorRecords = () => {
   const sorted = Array.from(contributors.values())
-    .map(stats => ({
+    .map((stats) => ({
       ...stats,
       score: computeScore(stats),
     }))
@@ -301,8 +274,7 @@ const main = async () => {
   for (const org of ORGS) {
     try {
       await collectOrganization(org)
-    }
-    catch (error) {
+    } catch (error) {
       console.error(`Failed to collect data for ${org}:`, error)
     }
   }

@@ -15,24 +15,22 @@ const socialLinks = [
     alt: 'npmx Discord Channel',
     icon: 'i-simple-icons-discord',
   },
-] as Array<{ to: string, alt: string, icon: string }>
+] as Array<{ to: string; alt: string; icon: string }>
 </script>
 
 <template>
   <div class="border-t border-neutral-800">
-    <UContainer class="flex justify-between gap-x-4 items-center h-20 sm:h-16">
-      <span class="text-neutral-300 text-sm">
+    <UContainer class="flex h-20 items-center justify-between gap-x-4 sm:h-16">
+      <span class="text-sm text-neutral-300">
         Made with love by the npmx community 💜 (<NuxtLink
           to="https://github.com/trueberryless-org/npmxers"
           target="_blank"
           class="underline hover:text-white"
-        >source code</NuxtLink>).
+          >source code</NuxtLink
+        >).
       </span>
       <ul class="flex items-center justify-center gap-x-2">
-        <li
-          v-for="social in socialLinks"
-          :key="social.to"
-        >
+        <li v-for="social in socialLinks" :key="social.to">
           <UButton
             variant="link"
             color="neutral"

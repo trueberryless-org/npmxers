@@ -1,15 +1,8 @@
 <template>
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 602 170"
-    style="--accent: oklch(0.78 0.148 286.067)"
-  >
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 602 170" style="--accent: oklch(0.78 0.148 286.067)">
     <title>npmx logo</title>
     <g transform="translate(0 14.602)">
-      <path
-        d="m0.93476 97.205h24.081v23.693h-24.081z"
-        fill="#fafafa"
-      />
+      <path d="m0.93476 97.205h24.081v23.693h-24.081z" fill="#fafafa" />
       <path
         d="m176.66 17.97h14.954l0.3884 18.449q4.0783-10.293 12.817-15.536 8.9334-5.2435 20.003-5.2435 17.09 0 26.412 11.07 9.3218 10.875 9.3218 27.965v66.223h-16.313v-61.562q0-29.325-22.916-29.325-12.429 0-20.391 7.7681-7.9623 7.7681-7.9623 21.557v61.562h-16.313z"
         fill="#fafafa"

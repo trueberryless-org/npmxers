@@ -1,8 +1,6 @@
 <script setup lang="ts">
 useHead({
-  link: [
-    { rel: 'icon', href: '/icon.png' },
-  ],
+  link: [{ rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
   htmlAttrs: {
     lang: 'en',
   },

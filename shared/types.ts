@@ -18,10 +18,3 @@ export interface Contributor {
   score: number
   rank: number
 }
-
-export interface Score {
-  type: string
-  multiplier: number | ''
-  amount: string
-  total: string
-}

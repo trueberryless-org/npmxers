@@ -10,20 +10,11 @@ const goToProfile = async () => {
 </script>
 
 <template>
-  <div
-    class="relative w-full md:max-w-80 lg:max-w-120 min-h-75 md:min-h-87.5 lg:min-h-55.5"
-  >
-    <UPageCard
-      class="md:max-w-100 lg:max-w-150 min-h-75 md:min-h-87.5 lg:min-h-55.5"
-    >
-      <div class="flex flex-col gap-y-6 items-center justify-center h-full">
-        <p class="text-xl text-neutral-50 text-center">
-          Look up any npmxer profile.
-        </p>
-        <form
-          class="w-full max-w-sm flex flex-col gap-y-3"
-          @submit.prevent="goToProfile"
-        >
+  <div class="relative min-h-75 w-full md:min-h-87.5 md:max-w-80 lg:min-h-55.5 lg:max-w-120">
+    <UPageCard class="min-h-75 md:min-h-87.5 md:max-w-100 lg:min-h-55.5 lg:max-w-150">
+      <div class="flex h-full flex-col items-center justify-center gap-y-6">
+        <p class="text-center text-xl text-neutral-50">Look up any npmxer profile.</p>
+        <form class="flex w-full max-w-sm flex-col gap-y-3" @submit.prevent="goToProfile">
           <UInput
             v-model="username"
             size="lg"

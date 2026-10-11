@@ -1,3 +1,1 @@
-export default defineEventHandler(async (event) => {
-  return fetchContributors(event)
-})
+export default defineEventHandler(() => contributors.map(({ rank: _rank, ...contributor }) => contributor))
