@@ -1,31 +1,31 @@
 # See https://github.com/actions/labeler/tree/v5
 
-'🚨 action':
+"🚨 action":
   - changed-files:
       - any-glob-to-any-file: .github/workflows/**
 
-'📝 changeset':
+"📝 changeset":
   - changed-files:
-      - any-glob-to-any-file: '**/.changeset/**.{md,mdx}'
+      - any-glob-to-any-file: "**/.changeset/**.{md,mdx}"
 
-'🚧 config':
+"🚧 config":
   - changed-files:
-      - any-glob-to-any-file: '**/*config*.{js,ts,jsx,tsx,mjs,mts,json,yml,yaml,toml,cjs,cts}'
+      - any-glob-to-any-file: "**/*config*.{js,ts,jsx,tsx,mjs,mts,json,yml,yaml,toml,cjs,cts}"
 
-'✒️ documentation':
+"✒️ documentation":
   - changed-files:
-      - any-glob-to-any-file: ['**/docs/**', '**/README.md']
+      - any-glob-to-any-file: ["**/docs/**", "**/README.md"]
 
-'🌏 i18n':
+"🌏 i18n":
   - changed-files:
       - any-glob-to-any-file:
-          - '**/docs/!(en)/**'
-          - '**/docs/[a-z][a-z]-[a-z][a-z]/**'
+          - "**/docs/!(en)/**"
+          - "**/docs/[a-z][a-z]-[a-z][a-z]/**"
 
-'📦 package':
+"📦 package":
   - changed-files:
-      - any-glob-to-any-file: ['**/packages/**', 'package.json']
+      - any-glob-to-any-file: ["**/packages/**", "package.json"]
 
-'🏯 styles':
+"🏯 styles":
   - changed-files:
-      - any-glob-to-any-file: '**/*.{css,scss,sass,less,styl}'
+      - any-glob-to-any-file: "**/*.{css,scss,sass,less,styl}"

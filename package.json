@@ -5,28 +5,28 @@
   "bugs": {
     "url": "https://github.com/trueberryless-org/npmxers/issues"
   },
-  "license": "MIT",
-  "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
   "repository": {
     "type": "git",
     "url": "https://github.com/trueberryless-org/npmxers.git"
   },
+  "license": "MIT",
+  "author": "trueberryless <trueberryless@gmail.com> (https://felixs.dev)",
   "type": "module",
   "scripts": {
-    "dev": "nuxt dev",
     "build": "nuxt build",
-    "lint": "oxlint",
+    "check": "nuxt typecheck",
     "collect:contributors": "tsx scripts/collect-contributors.ts",
-    "postinstall": "nuxt prepare",
+    "dev": "nuxt dev",
     "format": "oxfmt --write .",
     "format:check": "oxfmt --check .",
+    "postinstall": "nuxt prepare",
     "knip": "knip",
+    "lint": "oxlint",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "test:e2e": "pnpm build && playwright test",
-    "check": "nuxt typecheck",
-    "test:unit": "vitest run --project unit",
-    "test:nuxt": "vitest run --project nuxt"
+    "test:nuxt": "vitest run --project nuxt",
+    "test:unit": "vitest run --project unit"
   },
   "dependencies": {
     "@iconify-json/heroicons": "^1.2.3",
@@ -70,8 +70,8 @@
     "vitest": "^5.0.3",
     "vue-tsc": "^3.3.11"
   },
+  "packageManager": "pnpm@11.28.0",
   "engines": {
     "node": ">=24"
-  },
-  "packageManager": "pnpm@11.28.0"
+  }
 }
