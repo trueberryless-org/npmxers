@@ -11,10 +11,10 @@
       "all": 117
     },
     "helpful_issues": 42,
-    "comments": 254,
+    "comments": 255,
     "helpful_comments": 4,
-    "reactions": 251,
-    "score": 934
+    "reactions": 252,
+    "score": 935
   },
   {
     "username": "alexdln",
@@ -74,15 +74,15 @@
     "merged_pull_requests": {
       "docs": 3,
       "chore": 34,
-      "feat": 13,
+      "feat": 15,
       "fix": 25,
-      "all": 75
+      "all": 77
     },
     "helpful_issues": 20,
     "comments": 199,
     "helpful_comments": 3,
-    "reactions": 168,
-    "score": 537
+    "reactions": 169,
+    "score": 551
   },
   {
     "username": "userquin",
@@ -147,10 +147,10 @@
       "all": 41
     },
     "helpful_issues": 10,
-    "comments": 141,
+    "comments": 142,
     "helpful_comments": 3,
     "reactions": 165,
-    "score": 361
+    "score": 362
   },
   {
     "username": "wojtekmaj",
@@ -325,7 +325,7 @@
   {
     "username": "WilcoSp",
     "githubId": "17604138",
-    "issues": 3,
+    "issues": 4,
     "merged_pull_requests": {
       "docs": 0,
       "chore": 1,
@@ -334,10 +334,10 @@
       "all": 16
     },
     "helpful_issues": 2,
-    "comments": 96,
+    "comments": 97,
     "helpful_comments": 6,
     "reactions": 98,
-    "score": 175
+    "score": 176
   },
   {
     "username": "Adebesin-Cell",
@@ -918,6 +918,23 @@
     "score": 49
   },
   {
+    "username": "Tobbe",
+    "githubId": "30793",
+    "issues": 3,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 1,
+      "feat": 2,
+      "fix": 0,
+      "all": 3
+    },
+    "helpful_issues": 2,
+    "comments": 39,
+    "helpful_comments": 0,
+    "reactions": 14,
+    "score": 47
+  },
+  {
     "username": "sacrosanctic",
     "githubId": "2974920",
     "issues": 4,
@@ -1289,23 +1306,6 @@
     "comments": 10,
     "helpful_comments": 0,
     "reactions": 8,
-    "score": 34
-  },
-  {
-    "username": "Tobbe",
-    "githubId": "30793",
-    "issues": 3,
-    "merged_pull_requests": {
-      "docs": 0,
-      "chore": 0,
-      "feat": 1,
-      "fix": 0,
-      "all": 1
-    },
-    "helpful_issues": 1,
-    "comments": 39,
-    "helpful_comments": 0,
-    "reactions": 13,
     "score": 34
   },
   {
@@ -8972,7 +8972,7 @@
     "helpful_issues": 0,
     "comments": 2,
     "helpful_comments": 0,
-    "reactions": 0,
+    "reactions": 1,
     "score": 1
   },
   {
