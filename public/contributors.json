@@ -334,10 +334,10 @@
       "all": 16
     },
     "helpful_issues": 2,
-    "comments": 97,
+    "comments": 98,
     "helpful_comments": 6,
     "reactions": 98,
-    "score": 176
+    "score": 177
   },
   {
     "username": "Adebesin-Cell",
@@ -9743,6 +9743,23 @@
   {
     "username": "maurodf0",
     "githubId": "60851419",
+    "issues": 0,
+    "merged_pull_requests": {
+      "docs": 0,
+      "chore": 0,
+      "feat": 0,
+      "fix": 0,
+      "all": 0
+    },
+    "helpful_issues": 0,
+    "comments": 0,
+    "helpful_comments": 0,
+    "reactions": 0,
+    "score": 0
+  },
+  {
+    "username": "maxdzin",
+    "githubId": "6406412",
     "issues": 0,
     "merged_pull_requests": {
       "docs": 0,
