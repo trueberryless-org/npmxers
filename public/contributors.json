@@ -51,6 +51,23 @@
     "score": 842
   },
   {
+    "username": "serhalp",
+    "githubId": "1377702",
+    "issues": 25,
+    "merged_pull_requests": {
+      "docs": 3,
+      "chore": 34,
+      "feat": 17,
+      "fix": 25,
+      "all": 79
+    },
+    "helpful_issues": 20,
+    "comments": 201,
+    "helpful_comments": 3,
+    "reactions": 170,
+    "score": 567
+  },
+  {
     "username": "9romise",
     "githubId": "38204901",
     "issues": 17,
@@ -66,23 +83,6 @@
     "helpful_comments": 2,
     "reactions": 45,
     "score": 557
-  },
-  {
-    "username": "serhalp",
-    "githubId": "1377702",
-    "issues": 25,
-    "merged_pull_requests": {
-      "docs": 3,
-      "chore": 34,
-      "feat": 15,
-      "fix": 25,
-      "all": 77
-    },
-    "helpful_issues": 20,
-    "comments": 199,
-    "helpful_comments": 3,
-    "reactions": 169,
-    "score": 551
   },
   {
     "username": "userquin",
