@@ -138,4 +138,4 @@ jobs:
       - name: Require every job to pass
         run: |
           echo '${{ toJSON(needs) }}'
-          test "${{ contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled') }}" = "false"
+          test "${{ contains(needs.*.result, 'failure') || contains(needs.*.result, 'cancelled') || contains(needs.*.result, 'skipped') }}" = "false"
